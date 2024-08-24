@@ -72,7 +72,7 @@ function checkInput() {
     const span = document.createElement("span");
     span.textContent = target[i] || " ";
 
-    if (input[i] === target[i]) {
+    if (input[i].toUpperCase() === target[i].toUpperCase()) {
       span.style.color = "green";
     } else {
       span.style.color = "red";
@@ -81,7 +81,7 @@ function checkInput() {
     feedback.appendChild(span);
   }
 
-  if (input === target) {
+  if (input.toUpperCase() === target.toUpperCase()) {
     currentScore += target.length;
     updateScore();
     nextSentence();
