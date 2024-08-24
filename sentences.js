@@ -73,6 +73,84 @@ const sentencesFile = {
       english: "I am thinking about moving to a new city.",
       hebrew: "אני חושב לעבור לעיר חדשה.",
     },
+    [
+        {"english": "I like to eat pizza.", "hebrew": "אני אוהב לאכול פיצה."},
+        {"english": "She is reading a book.", "hebrew": "היא קוראת ספר."},
+        {"english": "He is watching a movie.", "hebrew": "הוא צופה בסרט."},
+        {"english": "We go to school every day.", "hebrew": "אנחנו הולכים לבית הספר כל יום."},
+        {"english": "They are playing in the park.", "hebrew": "הם משחקים בפארק."},
+        {"english": "I have a cat at home.", "hebrew": "יש לי חתול בבית."},
+        {"english": "She likes to draw pictures.", "hebrew": "היא אוהבת לצייר תמונות."},
+        {"english": "He is writing a letter.", "hebrew": "הוא כותב מכתב."},
+        {"english": "We are going to the store.", "hebrew": "אנחנו הולכים לחנות."},
+        {"english": "They like to play soccer.", "hebrew": "הם אוהבים לשחק כדורגל."},
+        {"english": "I am studying for a test.", "hebrew": "אני לומד למבחן."},
+        {"english": "She is cooking dinner.", "hebrew": "היא מבשלת ארוחת ערב."},
+        {"english": "He is cleaning his room.", "hebrew": "הוא מנקה את החדר שלו."},
+        {"english": "We are listening to music.", "hebrew": "אנחנו מקשיבים למוזיקה."},
+        {"english": "They are talking on the phone.", "hebrew": "הם מדברים בטלפון."},
+        {"english": "I like to play video games.", "hebrew": "אני אוהב לשחק במשחקי וידאו."},
+        {"english": "She is learning English.", "hebrew": "היא לומדת אנגלית."},
+        {"english": "He is reading the newspaper.", "hebrew": "הוא קורא את העיתון."},
+        {"english": "We are watching TV.", "hebrew": "אנחנו צופים בטלוויזיה."},
+        {"english": "They are eating lunch.", "hebrew": "הם אוכלים ארוחת צהריים."},
+        {"english": "I am writing a story.", "hebrew": "אני כותב סיפור."},
+        {"english": "She is going to work.", "hebrew": "היא הולכת לעבודה."},
+        {"english": "He is playing the piano.", "hebrew": "הוא מנגן בפסנתר."},
+        {"english": "We are going for a walk.", "hebrew": "אנחנו יוצאים להליכה."},
+        {"english": "They are taking a nap.", "hebrew": "הם מנמנמים."},
+        {"english": "I am learning to swim.", "hebrew": "אני לומד לשחות."},
+        {"english": "She is practicing the guitar.", "hebrew": "היא מתאמנת על הגיטרה."},
+        {"english": "He is drawing a picture.", "hebrew": "הוא מצייר תמונה."},
+        {"english": "We are cleaning the house.", "hebrew": "אנחנו מנקים את הבית."},
+        {"english": "They are reading books.", "hebrew": "הם קוראים ספרים."},
+        {"english": "I like to watch cartoons.", "hebrew": "אני אוהב לצפות בסרטים מצוירים."},
+        {"english": "She is buying groceries.", "hebrew": "היא קונה מצרכים."},
+        {"english": "He is fixing the car.", "hebrew": "הוא מתקן את המכונית."},
+        {"english": "We are playing board games.", "hebrew": "אנחנו משחקים משחקי לוח."},
+        {"english": "They are planting flowers.", "hebrew": "הם שותלים פרחים."},
+        {"english": "I am making a sandwich.", "hebrew": "אני מכין סנדוויץ'."},
+        {"english": "She is feeding the dog.", "hebrew": "היא מאכילה את הכלב."},
+        {"english": "He is studying math.", "hebrew": "הוא לומד מתמטיקה."},
+        {"english": "We are building a puzzle.", "hebrew": "אנחנו בונים פאזל."},
+        {"english": "They are riding their bikes.", "hebrew": "הם רוכבים על האופניים שלהם."},
+        {"english": "I like to draw animals.", "hebrew": "אני אוהב לצייר חיות."},
+        {"english": "She is painting a picture.", "hebrew": "היא מציירת תמונה."},
+        {"english": "He is learning to read.", "hebrew": "הוא לומד לקרוא."},
+        {"english": "We are visiting our friends.", "hebrew": "אנחנו מבקרים את החברים שלנו."},
+        {"english": "They are baking cookies.", "hebrew": "הם אופים עוגיות."},
+        {"english": "I am playing with my toys.", "hebrew": "אני משחק עם הצעצועים שלי."},
+        {"english": "She is watering the plants.", "hebrew": "היא משקה את הצמחים."},
+        {"english": "He is reading a magazine.", "hebrew": "הוא קורא מגזין."},
+        {"english": "We are learning new words.", "hebrew": "אנחנו לומדים מילים חדשות."},
+        {"english": "They are singing a song.", "hebrew": "הם שרים שיר."},
+        {"english": "I like to listen to the radio.", "hebrew": "אני אוהב להאזין לרדיו."},
+        {"english": "She is writing in her diary.", "hebrew": "היא כותבת ביומן שלה."},
+        {"english": "He is brushing his teeth.", "hebrew": "הוא מצחצח את השיניים שלו."},
+        {"english": "We are playing with our dog.", "hebrew": "אנחנו משחקים עם הכלב שלנו."},
+        {"english": "They are going to the park.", "hebrew": "הם הולכים לפארק."},
+        {"english": "I am organizing my room.", "hebrew": "אני מארגן את החדר שלי."},
+        {"english": "She is cleaning the dishes.", "hebrew": "היא מנקה את הכלים."},
+        {"english": "He is learning how to cook.", "hebrew": "הוא לומד איך לבשל."},
+        {"english": "We are planning a trip.", "hebrew": "אנחנו מתכננים טיול."},
+        {"english": "They are having a picnic.", "hebrew": "הם עורכים פיקניק."},
+        {"english": "I like to go fishing.", "hebrew": "אני אוהב ללכת לדוג."},
+        {"english": "She is writing a letter to her friend.", "hebrew": "היא כותבת מכתב לחבר שלה."},
+        {"english": "He is talking to his teacher.", "hebrew": "הוא מדבר עם המורה שלו."},
+        {"english": "We are planting trees in the garden.", "hebrew": "אנחנו שותלים עצים בגינה."},
+        {"english": "They are dancing to music.", "hebrew": "הם רוקדים לצלילי מוזיקה."},
+        {"english": "I am drawing a picture of my family.", "hebrew": "אני מצייר תמונה של המשפחה שלי."},
+        {"english": "She is practicing her handwriting.", "hebrew": "היא מתאמנת בכתב היד שלה."},
+        {"english": "He is building a model airplane.", "hebrew": "הוא בונה מטוס דגם."},
+        {"english": "We are having lunch at the park.", "hebrew": "אנחנו אוכלים ארוחת צהריים בפארק."},
+        {"english": "They are playing with their new toys.", "hebrew": "הם משחקים עם הצעצועים החדשים שלהם."},
+        {"english": "I like to go swimming in the pool.", "hebrew": "אני אוהב לשחות בבריכה."},
+        {"english": "She is drawing a picture of a cat.", "hebrew": "היא מציירת תמונה של חתול."},
+        {"english": "He is reading a book about space.", "hebrew": "הוא קורא ספר על החלל."},
+        {"english": "We are making cookies for the party.", "hebrew": "אנחנו מכינים עוגיות למסיבה."},
+        {"english": "They are watching a movie together.", "hebrew": "הם צופים יחד בסרט."},
+        {"english": "I am learning how to play the guitar.", "hebrew": "אני לומד איך לנגן בגיטרה."},
+    
   ],
 
   level5: [
@@ -113,6 +191,388 @@ const sentencesFile = {
       english: "He is very good at solving problems.",
       hebrew: "הוא טוב מאוד בפתרון בעיות.",
     },
+    [
+      {
+        english: "I am trying to improve my English skills.",
+        hebrew: "אני מנסה לשפר את כישורי האנגלית שלי.",
+      },
+      {
+        english: "She is preparing for her final exams.",
+        hebrew: "היא מתכוננת למבחנים הסופיים שלה.",
+      },
+      {
+        english: "He was late for the meeting because of traffic.",
+        hebrew: "הוא איחר לפגישה בגלל התנועה.",
+      },
+      {
+        english: "We are planning to visit our grandparents this weekend.",
+        hebrew: "אנחנו מתכננים לבקר את הסבים שלנו בסוף השבוע הזה.",
+      },
+      {
+        english: "I need to call the doctor to make an appointment.",
+        hebrew: "אני צריך להתקשר לרופא כדי לקבוע תור.",
+      },
+      {
+        english: "She enjoys playing the piano in her free time.",
+        hebrew: "היא נהנית לנגן בפסנתר בזמנה הפנוי.",
+      },
+      {
+        english: "He has a lot of experience in this field.",
+        hebrew: "יש לו הרבה ניסיון בתחום הזה.",
+      },
+      {
+        english: "We are planning to renovate our kitchen next year.",
+        hebrew: "אנחנו מתכננים לשפץ את המטבח שלנו בשנה הבאה.",
+      },
+      {
+        english: "I usually go for a walk in the evening.",
+        hebrew: "בדרך כלל אני יוצא להליכה בערב.",
+      },
+      {
+        english: "She has been working on this project for several months.",
+        hebrew: "היא עובדת על הפרויקט הזה כבר כמה חודשים.",
+      },
+      {
+        english: "The weather is perfect for a day at the beach.",
+        hebrew: "מזג האוויר מושלם ליום על החוף.",
+      },
+      {
+        english: "I am interested in learning more about this topic.",
+        hebrew: "אני מעוניין ללמוד יותר על הנושא הזה.",
+      },
+      {
+        english: "She is always very organized and punctual.",
+        hebrew: "היא תמיד מאוד מאורגנת ומדויקת בזמנים.",
+      },
+      {
+        english: "He has a great sense of responsibility.",
+        hebrew: "יש לו חוש אחריות נהדר.",
+      },
+      {
+        english: "We are trying to find a solution to this problem.",
+        hebrew: "אנחנו מנסים למצוא פתרון לבעיה הזו.",
+      },
+      {
+        english: "I enjoy reading books in my spare time.",
+        hebrew: "אני נהנה לקרוא ספרים בזמן הפנוי שלי.",
+      },
+      {
+        english: "She is thinking about starting her own business.",
+        hebrew: "היא חושבת על פתיחת עסק משלה.",
+      },
+      {
+        english: "He is very passionate about his work.",
+        hebrew: "הוא מאוד נלהב מעבודתו.",
+      },
+      {
+        english: "We are planning a vacation to Europe next summer.",
+        hebrew: "אנחנו מתכננים חופשה לאירופה בקיץ הבא.",
+      },
+      {
+        english: "I need to finish this report by tomorrow morning.",
+        hebrew: "אני צריך לסיים את הדוח הזה עד מחר בבוקר.",
+      },
+      {
+        english: "She is very knowledgeable about this subject.",
+        hebrew: "היא בעלת ידע רב בנושא הזה.",
+      },
+      {
+        english: "He always arrives on time for meetings.",
+        hebrew: "הוא תמיד מגיע בזמן לפגישות.",
+      },
+      {
+        english: "We are planning to host a dinner party this weekend.",
+        hebrew: "אנחנו מתכננים לארח ארוחת ערב בסוף השבוע הזה.",
+      },
+      {
+        english: "I need to buy some groceries for dinner.",
+        hebrew: "אני צריך לקנות כמה מצרכים לארוחת ערב.",
+      },
+      {
+        english: "She is learning how to play the guitar.",
+        hebrew: "היא לומדת איך לנגן בגיטרה.",
+      },
+      {
+        english: "He is responsible for managing the team.",
+        hebrew: "הוא אחראי על ניהול הצוות.",
+      },
+      {
+        english: "We are looking forward to our trip to Japan.",
+        hebrew: "אנחנו מצפים לטיול שלנו ליפן.",
+      },
+      {
+        english: "I usually drink coffee in the morning.",
+        hebrew: "בדרך כלל אני שותה קפה בבוקר.",
+      },
+      {
+        english: "She has a great sense of style.",
+        hebrew: "יש לה חוש סגנון נהדר.",
+      },
+      {
+        english: "He is always willing to help others.",
+        hebrew: "הוא תמיד מוכן לעזור לאחרים.",
+      },
+      {
+        english: "We are planning to move to a new apartment.",
+        hebrew: "אנחנו מתכננים לעבור לדירה חדשה.",
+      },
+      {
+        english: "I need to study for my upcoming exams.",
+        hebrew: "אני צריך ללמוד למבחנים הקרובים שלי.",
+      },
+      {
+        english: "She is very good at solving problems.",
+        hebrew: "היא טובה מאוד בפתרון בעיות.",
+      },
+      {
+        english: "He enjoys playing basketball on the weekends.",
+        hebrew: "הוא נהנה לשחק כדורסל בסופי שבוע.",
+      },
+      {
+        english: "We are planning to adopt a dog from the shelter.",
+        hebrew: "אנחנו מתכננים לאמץ כלב מהמקלט.",
+      },
+      {
+        english: "I usually go to the gym after work.",
+        hebrew: "בדרך כלל אני הולך לחדר כושר אחרי העבודה.",
+      },
+      {
+        english: "She has been working on her thesis for over a year.",
+        hebrew: "היא עובדת על התזה שלה כבר למעלה משנה.",
+      },
+      {
+        english: "He is very interested in history.",
+        hebrew: "הוא מאוד מתעניין בהיסטוריה.",
+      },
+      {
+        english: "We are planning to start a new project next month.",
+        hebrew: "אנחנו מתכננים להתחיל פרויקט חדש בחודש הבא.",
+      },
+      {
+        english: "I need to send an email to my boss.",
+        hebrew: "אני צריך לשלוח מייל לבוס שלי.",
+      },
+      {
+        english: "She enjoys hiking in the mountains.",
+        hebrew: "היא נהנית לטייל בהרים.",
+      },
+      {
+        english: "He is very good at organizing events.",
+        hebrew: "הוא טוב מאוד בארגון אירועים.",
+      },
+      {
+        english: "We are planning to visit the museum this weekend.",
+        hebrew: "אנחנו מתכננים לבקר במוזיאון בסוף השבוע הזה.",
+      },
+      {
+        english: "I usually go to bed around 11 PM.",
+        hebrew: "בדרך כלל אני הולך לישון בסביבות 11 בלילה.",
+      },
+      {
+        english: "She has a lot of friends at school.",
+        hebrew: "יש לה הרבה חברים בבית הספר.",
+      },
+      {
+        english: "He is always very polite to everyone.",
+        hebrew: "הוא תמיד מאוד מנומס לכולם.",
+      },
+      {
+        english: "We are looking forward to the concert next month.",
+        hebrew: "אנחנו מצפים להופעה בחודש הבא.",
+      },
+      {
+        english: "I need to finish my homework before dinner.",
+        hebrew: "אני צריך לסיים את שיעורי הבית שלי לפני ארוחת הערב.",
+      },
+      {
+        english: "She is very talented at drawing.",
+        hebrew: "היא מאוד מוכשרת בציור.",
+      },
+      {
+        english: "He enjoys cooking for his family.",
+        hebrew: "הוא נהנה לבשל למשפחתו.",
+      },
+      {
+        english: "We are planning to have a picnic in the park.",
+        hebrew: "אנחנו מתכננים לעשות פיקניק בפארק.",
+      },
+      {
+        english: "I usually read a book before going to bed.",
+        hebrew: "בדרך כלל אני קורא ספר לפני השינה.",
+      },
+      {
+        english: "She has been studying English for two years.",
+        hebrew: "היא לומדת אנגלית כבר שנתיים.",
+      },
+      {
+        english: "He is very good at playing chess.",
+        hebrew: "הוא טוב מאוד בשחמט.",
+      },
+      {
+        english: "We are planning to go on a road trip this summer.",
+        hebrew: "אנחנו מתכננים לצאת לטיול בכביש בקיץ הזה.",
+      },
+      {
+        english: "I need to make a doctor's appointment.",
+        hebrew: "אני צריך לקבוע תור לרופא.",
+      },
+      {
+        english: "She enjoys swimming in the ocean.",
+        hebrew: "היא נהנית לשחות באוקיינוס.",
+      },
+      {
+        english: "He is always very helpful and kind.",
+        hebrew: "הוא תמיד מאוד עוזר ואדיב.",
+      },
+      {
+        english: "We are planning to celebrate her birthday with a party.",
+        hebrew: "אנחנו מתכננים לחגוג את יום הולדתה עם מסיבה.",
+      },
+      {
+        english: "I usually eat breakfast at 7 AM.",
+        hebrew: "בדרך כלל אני אוכל ארוחת בוקר בשעה 7 בבוקר.",
+      },
+      {
+        english: "She has been working in the same company for five years.",
+        hebrew: "היא עובדת באותה חברה כבר חמש שנים.",
+      },
+      {
+        english: "He is very passionate about photography.",
+        hebrew: "הוא מאוד נלהב מצילום.",
+      },
+      {
+        english: "We are planning to visit the zoo this weekend.",
+        hebrew: "אנחנו מתכננים לבקר בגן החיות בסוף השבוע הזה.",
+      },
+      {
+        english: "I need to buy a gift for my friend's birthday.",
+        hebrew: "אני צריך לקנות מתנה ליום ההולדת של חבר שלי.",
+      },
+      {
+        english: "She enjoys taking long walks in the park.",
+        hebrew: "היא נהנית לקחת הליכות ארוכות בפארק.",
+      },
+      {
+        english: "He is very good at playing the guitar.",
+        hebrew: "הוא טוב מאוד בנגינה בגיטרה.",
+      },
+      {
+        english: "We are planning to go to the movies tonight.",
+        hebrew: "אנחנו מתכננים ללכת לקולנוע הערב.",
+      },
+      {
+        english: "I usually watch TV in the evening.",
+        hebrew: "בדרך כלל אני צופה בטלוויזיה בערב.",
+      },
+      {
+        english: "She has a beautiful singing voice.",
+        hebrew: "יש לה קול שירה יפה.",
+      },
+      {
+        english: "He enjoys playing video games with his friends.",
+        hebrew: "הוא נהנה לשחק משחקי וידאו עם חבריו.",
+      },
+      {
+        english: "We are planning to have a barbecue this weekend.",
+        hebrew: "אנחנו מתכננים לעשות על האש בסוף השבוע הזה.",
+      },
+      {
+        english: "I need to pack my bags for the trip.",
+        hebrew: "אני צריך לארוז את התיקים שלי לטיול.",
+      },
+      {
+        english: "She enjoys visiting new places.",
+        hebrew: "היא נהנית לבקר במקומות חדשים.",
+      },
+      {
+        english: "He is very skilled at fixing things.",
+        hebrew: "הוא מאוד מיומן בתיקון דברים.",
+      },
+      {
+        english: "We are planning to go hiking in the mountains.",
+        hebrew: "אנחנו מתכננים לטייל בהרים.",
+      },
+      {
+        english: "I usually drink tea in the afternoon.",
+        hebrew: "בדרך כלל אני שותה תה אחר הצהריים.",
+      },
+      {
+        english: "She has a lot of hobbies, including painting.",
+        hebrew: "יש לה הרבה תחביבים, כולל ציור.",
+      },
+      {
+        english: "He is always very careful with his work.",
+        hebrew: "הוא תמיד מאוד זהיר בעבודתו.",
+      },
+      {
+        english: "We are looking forward to seeing you soon.",
+        hebrew: "אנחנו מצפים לראותך בקרוב.",
+      },
+      {
+        english: "I need to get ready for work.",
+        hebrew: "אני צריך להתכונן לעבודה.",
+      },
+      {
+        english: "She enjoys spending time with her family.",
+        hebrew: "היא נהנית לבלות זמן עם משפחתה.",
+      },
+      {
+        english: "He is very good at giving presentations.",
+        hebrew: "הוא טוב מאוד במתן מצגות.",
+      },
+      {
+        english: "We are planning to go to the beach this weekend.",
+        hebrew: "אנחנו מתכננים ללכת לחוף הים בסוף השבוע הזה.",
+      },
+      {
+        english: "I usually listen to music while working.",
+        hebrew: "בדרך כלל אני מקשיב למוזיקה בזמן העבודה.",
+      },
+      {
+        english: "She has a talent for writing stories.",
+        hebrew: "יש לה כשרון לכתיבת סיפורים.",
+      },
+      {
+        english: "He enjoys learning new languages.",
+        hebrew: "הוא נהנה ללמוד שפות חדשות.",
+      },
+      {
+        english: "We are planning to have a family reunion next year.",
+        hebrew: "אנחנו מתכננים איחוד משפחתי בשנה הבאה.",
+      },
+      {
+        english: "I need to find a new job.",
+        hebrew: "אני צריך למצוא עבודה חדשה.",
+      },
+      {
+        english: "She enjoys baking cookies on the weekends.",
+        hebrew: "היא נהנית לאפות עוגיות בסופי שבוע.",
+      },
+      {
+        english: "He is always very patient with his students.",
+        hebrew: "הוא תמיד מאוד סבלני עם התלמידים שלו.",
+      },
+      {
+        english: "We are planning to visit our relatives during the holidays.",
+        hebrew: "אנחנו מתכננים לבקר את קרובי המשפחה שלנו במהלך החגים.",
+      },
+      {
+        english: "I usually go grocery shopping on Sundays.",
+        hebrew: "בדרך כלל אני עושה קניות מצרכים בימי ראשון.",
+      },
+      {
+        english: "She has a lot of experience in marketing.",
+        hebrew: "יש לה הרבה ניסיון בשיווק.",
+      },
+      {
+        english: "He is very interested in learning about different cultures.",
+        hebrew: "הוא מאוד מעוניין ללמוד על תרבויות שונות.",
+      },
+      {
+        english: "We are planning to redecorate our living room.",
+        hebrew: "אנחנו מתכננים לעצב מחדש את הסלון שלנו.",
+      },
+    ],
   ],
 
   level6: [

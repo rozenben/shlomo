@@ -51,7 +51,9 @@ function nextSentence() {
   // sentenceQueue.checkAndRefill();
   // currentSentence = sentenceQueue.dequeue();
   currentSentence =
-    sentencesFile["level" + selectedLevel][Math.floor(Math.random() * 10)];
+    sentencesFile["level" + selectedLevel][
+      Math.floor(Math.random() * sentencesFile["level" + selectedLevel].length)
+    ];
   if (currentSentence) {
     englishSentence.textContent = currentSentence.english;
     hebrewTranslation.textContent = currentSentence.hebrew;
