@@ -9,7 +9,6 @@ import { sentencesFile } from "./sentences.js";
 let currentSentence;
 let currentScore = 0;
 let highScore = 0;
-let timeLeft = 60;
 let timerInterval;
 
 const startGameButton = document.getElementById("start-game");
@@ -22,16 +21,21 @@ const currentScoreElement = document.getElementById("current-score");
 const bestScoreElement = document.getElementById("best-score");
 const timeLeftElement = document.getElementById("time-left");
 const englishLevel = document.getElementById("english-level");
+const gameTimeElement = document.getElementById("game-time");
 var selectedLevel = 4;
+var gameTime = 63;
+let timeLeft = gameTime; // 60;
 startGameButton.addEventListener("click", startGame);
 userInput.addEventListener("input", checkInput);
 
 function startGame() {
   selectedLevel = englishLevel.value;
+  gameTime = gameTimeElement.value;
   startGameButton.style.display = "none";
   gameArea.style.display = "block";
   currentScore = 0;
-  timeLeft = 60;
+  timeLeft = gameTime; // 60;
+  console.log("timeLeft: " + timeLeft);
   updateScore();
   //   fetchSentencesFromAPI().then(() => {
   //     nextSentence();
