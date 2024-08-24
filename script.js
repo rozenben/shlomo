@@ -23,18 +23,21 @@ const timeLeftElement = document.getElementById("time-left");
 const englishLevel = document.getElementById("english-level");
 const gameTimeElement = document.getElementById("game-time");
 var selectedLevel = 4;
-var gameTime = 63;
-let timeLeft = gameTime; // 60;
+var gameTime = (highScore = localStorage.getItem("gameTime") || 120);
+gameTimeElement.setAttribute("value", gameTime);
+let timeLeft = gameTime;
 startGameButton.addEventListener("click", startGame);
 userInput.addEventListener("input", checkInput);
 
 function startGame() {
+  console.log("asdasdas ");
   selectedLevel = englishLevel.value;
   gameTime = gameTimeElement.value;
+  localStorage.setItem("gameTime", gameTime);
   startGameButton.style.display = "none";
   gameArea.style.display = "block";
   currentScore = 0;
-  timeLeft = gameTime; // 60;
+  timeLeft = gameTime;
   console.log("timeLeft: " + timeLeft);
   updateScore();
   //   fetchSentencesFromAPI().then(() => {
