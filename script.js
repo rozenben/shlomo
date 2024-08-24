@@ -30,7 +30,6 @@ startGameButton.addEventListener("click", startGame);
 userInput.addEventListener("input", checkInput);
 
 function startGame() {
-  console.log("asdasdas ");
   selectedLevel = englishLevel.value;
   gameTime = gameTimeElement.value;
   localStorage.setItem("gameTime", gameTime);
@@ -38,7 +37,7 @@ function startGame() {
   gameArea.style.display = "block";
   currentScore = 0;
   timeLeft = gameTime;
-  console.log("timeLeft: " + timeLeft);
+  userInput.focus();
   updateScore();
   //   fetchSentencesFromAPI().then(() => {
   //     nextSentence();
