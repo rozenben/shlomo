@@ -1,4 +1,10 @@
-import { sentenceQueue, fetchSentencesFromAPI } from "./sentenceQueue.js";
+import {
+  sentenceQueue,
+  fetchSentencesFromAPI,
+  fetchSentencesFromFile,
+} from "./sentenceQueue.js";
+
+import { sentencesFile } from "./sentences.js";
 
 let currentSentence;
 let currentScore = 0;
@@ -15,11 +21,13 @@ const feedback = document.getElementById("feedback");
 const currentScoreElement = document.getElementById("current-score");
 const bestScoreElement = document.getElementById("best-score");
 const timeLeftElement = document.getElementById("time-left");
-
+const englishLevel = document.getElementById("english-level");
+var selectedLevel = 4;
 startGameButton.addEventListener("click", startGame);
 userInput.addEventListener("input", checkInput);
 
 function startGame() {
+  selectedLevel = englishLevel.value;
   startGameButton.style.display = "none";
   gameArea.style.display = "block";
   currentScore = 0;
@@ -34,8 +42,10 @@ function startGame() {
 }
 
 function nextSentence() {
-  sentenceQueue.checkAndRefill();
-  currentSentence = sentenceQueue.dequeue();
+  // sentenceQueue.checkAndRefill();
+  // currentSentence = sentenceQueue.dequeue();
+  currentSentence =
+    sentencesFile["level" + selectedLevel][Math.floor(Math.random() * 10)];
   if (currentSentence) {
     englishSentence.textContent = currentSentence.english;
     hebrewTranslation.textContent = currentSentence.hebrew;
