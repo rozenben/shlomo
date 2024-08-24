@@ -39,9 +39,11 @@ function nextSentence() {
   if (currentSentence) {
     englishSentence.textContent = currentSentence.english;
     hebrewTranslation.textContent = currentSentence.hebrew;
+    speakText(currentSentence.english);
     userInput.value = "";
     feedback.innerHTML = "";
   } else {
+    alert("רגע אחד,  אני טוען משפטים מעניינים...");
     endGame();
   }
 }
@@ -94,7 +96,23 @@ function endGame() {
   clearInterval(timerInterval);
   gameArea.style.display = "none";
   startGameButton.style.display = "block";
-  alert(`המשחק נגמר! הניקוד שלך: ${currentScore}`);
+  //   alert(`המשחק נגמר! הניקוד שלך: ${currentScore}`);
+}
+
+function speakText(text) {
+  // Check if the browser supports Web Speech API
+  if ("speechSynthesis" in window) {
+    // Create a new speech object
+    const utterance = new SpeechSynthesisUtterance(text);
+
+    // Set the language to English
+    utterance.lang = "en-US";
+
+    // Speak the text
+    window.speechSynthesis.speak(utterance);
+  } else {
+    console.log("Your browser does not support text-to-speech.");
+  }
 }
 
 // טעינת השיא מהאחסון המקומי
