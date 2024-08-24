@@ -60,7 +60,6 @@ function nextSentence() {
     userInput.value = "";
     feedback.innerHTML = "";
   } else {
-    alert("רגע אחד,  אני טוען משפטים מעניינים...");
     endGame();
   }
 }
@@ -113,7 +112,7 @@ function endGame() {
   clearInterval(timerInterval);
   gameArea.style.display = "none";
   startGameButton.style.display = "block";
-  //   alert(`המשחק נגמר! הניקוד שלך: ${currentScore}`);
+  // alert(`המשחק נגמר! הניקוד שלך: ${currentScore}`);
 }
 
 function speakText(text) {
