@@ -448,6 +448,210 @@ const sentencesFile = {
     },
     { english: "She has a lot of friends", hebrew: "יש לה הרבה חברים" },
     { english: "Can I ask you a question?", hebrew: "אפשר לשאול אותך שאלה?" },
+    {
+      english: "The garden was filled with colorful flowers.",
+      hebrew: "הגן היה מלא בפרחים צבעוניים.",
+    },
+    {
+      english: "She carried a heavy bag on her shoulder.",
+      hebrew: "היא נשאה תיק כבד על כתפה.",
+    },
+    {
+      english: "The children were playing with a new toy.",
+      hebrew: "הילדים שיחקו בצעצוע חדש.",
+    },
+    {
+      english: "He wrote a letter to his grandmother.",
+      hebrew: "הוא כתב מכתב לסבתו.",
+    },
+    {
+      english: "The sun was shining brightly in the sky.",
+      hebrew: "השמש זרחה בחוזקה בשמיים.",
+    },
+    {
+      english: "They decided to take a walk in the park.",
+      hebrew: "הם החליטו לצאת לטיול בפארק.",
+    },
+    {
+      english: "The book was interesting and full of adventure.",
+      hebrew: "הספר היה מעניין ומלא בהרפתקאות.",
+    },
+    {
+      english: "She cooked a delicious meal for her family.",
+      hebrew: "היא בישלה ארוחה טעימה למשפחתה.",
+    },
+    {
+      english: "He solved the puzzle after thinking for a while.",
+      hebrew: "הוא פתר את הפאזל לאחר מחשבה ממושכת.",
+    },
+    {
+      english: "The dog barked loudly at the strangers.",
+      hebrew: "הכלב נבח בקול רם על הזרים.",
+    },
+    {
+      english: "They watched a movie together in the evening.",
+      hebrew: "הם צפו בסרט יחד בערב.",
+    },
+    {
+      english: "The river flowed smoothly through the valley.",
+      hebrew: "הנהר זרם בצורה חלקה דרך העמק.",
+    },
+    {
+      english: "She drew a beautiful picture of the mountains.",
+      hebrew: "היא ציירה תמונה יפה של ההרים.",
+    },
+    {
+      english: "He read a story before going to bed.",
+      hebrew: "הוא קרא סיפור לפני השינה.",
+    },
+    {
+      english: "The clock on the wall was ticking quietly.",
+      hebrew: "השעון על הקיר תקתק בשקט.",
+    },
+    {
+      english: "They planted trees in the school yard.",
+      hebrew: "הם שתלו עצים בחצר בית הספר.",
+    },
+    {
+      english: "She listened to the sound of the rain.",
+      hebrew: "היא הקשיבה לצליל הגשם.",
+    },
+    {
+      english: "He bought a new pair of shoes.",
+      hebrew: "הוא קנה זוג נעליים חדש.",
+    },
+    {
+      english: "The wind was blowing softly through the trees.",
+      hebrew: "הרוח נשבה בעדינות בין העצים.",
+    },
+    {
+      english: "They built a small house by the lake.",
+      hebrew: "הם בנו בית קטן ליד האגם.",
+    },
+    {
+      english: "She wrote in her diary every night.",
+      hebrew: "היא כתבה ביומנה כל לילה.",
+    },
+    {
+      english: "He carried the groceries to the car.",
+      hebrew: "הוא נשא את המצרכים לרכב.",
+    },
+    {
+      english: "The stars twinkled in the night sky.",
+      hebrew: "הכוכבים נצנצו בשמי הלילה.",
+    },
+    {
+      english: "They organized a party for their friend's birthday.",
+      hebrew: "הם ארגנו מסיבה ליום ההולדת של חברם.",
+    },
+    {
+      english: "She watched the birds fly in the sky.",
+      hebrew: "היא צפתה בציפורים עפות בשמיים.",
+    },
+    {
+      english: "He repaired the broken chair in the kitchen.",
+      hebrew: "הוא תיקן את הכיסא השבור במטבח.",
+    },
+    {
+      english: "The children were excited to go on a trip.",
+      hebrew: "הילדים התרגשו לצאת לטיול.",
+    },
+    {
+      english: "She wore a beautiful dress to the party.",
+      hebrew: "היא לבשה שמלה יפה למסיבה.",
+    },
+    {
+      english: "He watered the plants every morning.",
+      hebrew: "הוא השקה את הצמחים כל בוקר.",
+    },
+    {
+      english: "The bird built a nest in the tree.",
+      hebrew: "הציפור בנתה קן בעץ.",
+    },
+    {
+      english: "They played a game of chess after dinner.",
+      hebrew: "הם שיחקו במשחק שחמט לאחר ארוחת הערב.",
+    },
+    {
+      english: "She painted the walls of her room blue.",
+      hebrew: "היא צבעה את קירות החדר שלה בכחול.",
+    },
+    {
+      english: "He enjoyed reading books about history.",
+      hebrew: "הוא נהנה לקרוא ספרים על היסטוריה.",
+    },
+    {
+      english: "The rain stopped and the sun came out.",
+      hebrew: "הגשם הפסיק והשמש יצאה.",
+    },
+    {
+      english: "They helped their neighbor move to a new house.",
+      hebrew: "הם עזרו לשכנם לעבור לבית חדש.",
+    },
+    {
+      english: "She made a cake for her friend's birthday.",
+      hebrew: "היא הכינה עוגה ליום ההולדת של חברתה.",
+    },
+    {
+      english: "He found a lost puppy in the park.",
+      hebrew: "הוא מצא גורת כלבים אבודה בפארק.",
+    },
+    {
+      english: "The teacher explained the lesson clearly.",
+      hebrew: "המורה הסביר את השיעור בצורה ברורה.",
+    },
+    {
+      english: "They sang songs around the campfire.",
+      hebrew: "הם שרו שירים סביב המדורה.",
+    },
+    {
+      english: "She saved money to buy a new bicycle.",
+      hebrew: "היא חסכה כסף לקניית אופניים חדשים.",
+    },
+    {
+      english: "He traveled to a foreign country last year.",
+      hebrew: "הוא נסע למדינה זרה בשנה שעברה.",
+    },
+    {
+      english: "The cat slept peacefully on the couch.",
+      hebrew: "החתול ישן בשלווה על הספה.",
+    },
+    {
+      english: "They went to the beach to enjoy the sun.",
+      hebrew: "הם הלכו לחוף ליהנות מהשמש.",
+    },
+    {
+      english: "She wrote a poem about her feelings.",
+      hebrew: "היא כתבה שיר על תחושותיה.",
+    },
+    {
+      english: "He fixed the bicycle tire quickly.",
+      hebrew: "הוא תיקן את הצמיג של האופניים במהירות.",
+    },
+    {
+      english: "The family went on a picnic by the river.",
+      hebrew: "המשפחה יצאה לפיקניק ליד הנהר.",
+    },
+    {
+      english: "She danced gracefully at the party.",
+      hebrew: "היא רקדה בחן במסיבה.",
+    },
+    {
+      english: "He cooked a special dish for the guests.",
+      hebrew: "הוא בישל מנה מיוחדת לאורחים.",
+    },
+    {
+      english: "The sun set behind the mountains.",
+      hebrew: "השמש שקעה מאחורי ההרים.",
+    },
+    {
+      english: "They played soccer in the school yard.",
+      hebrew: "הם שיחקו כדורגל בחצר בית הספר.",
+    },
+    {
+      english: "She wore a warm coat on a cold day.",
+      hebrew: "היא לבשה מעיל חם ביום קר.",
+    },
   ],
 
   level4: [
