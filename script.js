@@ -50,10 +50,10 @@ function startGame() {
 function nextSentence() {
   // sentenceQueue.checkAndRefill();
   // currentSentence = sentenceQueue.dequeue();
-  console.log(
-    'sentencesFile["level" + selectedLevel].length: ' +
-      sentencesFile["level" + selectedLevel].length
-  );
+  // console.log(
+  //   'sentencesFile["level" + selectedLevel].length: ' +
+  //     sentencesFile["level" + selectedLevel].length
+  // );
 
   currentSentence =
     sentencesFile["level" + selectedLevel][
