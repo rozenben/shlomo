@@ -68,22 +68,31 @@ function startGame() {
   userInput.value = "";
   userInput.focus();
   updateScore();
+
+  // ערבוב המערך
+  sentencesFile["level" + selectedLevel].sort(() => Math.random() - 0.5);
+
   nextSentence();
   startTimer();
   gameArea.classList.add("visible");
 }
 
+let sentenceIndex = 0;
+
 function nextSentence() {
-  let randomIndex = Math.floor(
-    Math.random() * sentencesFile["level" + selectedLevel].length
-  );
-  currentSentence = sentencesFile["level" + selectedLevel][randomIndex];
-  if (currentSentence) {
-    englishSentence.textContent = currentSentence.english;
-    hebrewTranslation.textContent = currentSentence.hebrew;
-    speakText(currentSentence.english);
-    userInput.value = "";
-    feedback.innerHTML = "";
+  if (sentenceIndex < sentencesFile["level" + selectedLevel].length) {
+    currentSentence = sentencesFile["level" + selectedLevel][sentenceIndex];
+    sentenceIndex++;
+
+    if (currentSentence) {
+      englishSentence.textContent = currentSentence.english;
+      hebrewTranslation.textContent = currentSentence.hebrew;
+      speakText(currentSentence.english);
+      userInput.value = "";
+      feedback.innerHTML = "";
+    } else {
+      endGame();
+    }
   } else {
     endGame();
   }
