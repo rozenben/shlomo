@@ -254,7 +254,7 @@ const sentencesFile = {
       hebrew: "מעולם לא ראיתי שקיעה יפה כל כך",
     },
     {
-      english: "He couldn’t believe what he heard",
+      english: "He couldn't believe what he heard",
       hebrew: "הוא לא יכול היה להאמין למה שהוא שמע",
     },
     {
@@ -306,7 +306,7 @@ const sentencesFile = {
       hebrew: "המכונית חנתה מול הבית",
     },
     {
-      english: "He hasn’t finished his homework yet",
+      english: "He hasn't finished his homework yet",
       hebrew: "הוא עדיין לא סיים את שיעורי הבית שלו",
     },
     {
@@ -394,7 +394,7 @@ const sentencesFile = {
       hebrew: "הילדים שיחקו בפארק כשזה התחיל לרדת גשם",
     },
     {
-      english: "He hasn’t seen his friend in years",
+      english: "He hasn't seen his friend in years",
       hebrew: "הוא לא ראה את חברו כבר שנים",
     },
     {
@@ -442,7 +442,7 @@ const sentencesFile = {
       hebrew: "הספר תורגם למספר שפות",
     },
     {
-      english: "He hasn’t made a decision yet",
+      english: "He hasn't made a decision yet",
       hebrew: "הוא עדיין לא קיבל החלטה",
     },
     {
@@ -490,7 +490,7 @@ const sentencesFile = {
       hebrew: "החתול חולץ על ידי זר נדיב",
     },
     {
-      english: "He hasn’t been to the gym in weeks",
+      english: "He hasn't been to the gym in weeks",
       hebrew: "הוא לא היה בחדר הכושר כבר שבועות",
     },
     {
@@ -538,7 +538,7 @@ const sentencesFile = {
       hebrew: "העבודה הוצעה לה בגלל הניסיון שלה",
     },
     {
-      english: "He hasn’t heard from his friend in a long time",
+      english: "He hasn't heard from his friend in a long time",
       hebrew: "הוא לא שמע מחברו הרבה זמן",
     },
     {
@@ -586,7 +586,7 @@ const sentencesFile = {
       hebrew: "החדשות התפשטו במהירות ברחבי העיירה",
     },
     {
-      english: "He hasn’t played the piano in years",
+      english: "He hasn't played the piano in years",
       hebrew: "הוא לא ניגן בפסנתר כבר שנים",
     },
     {
@@ -634,7 +634,7 @@ const sentencesFile = {
       hebrew: "הגן היה מלא בפרחים פורחים",
     },
     {
-      english: "He hasn’t been to the beach since last summer",
+      english: "He hasn't been to the beach since last summer",
       hebrew: "הוא לא היה בחוף מאז הקיץ שעבר",
     },
     {
@@ -730,7 +730,7 @@ const sentencesFile = {
       hebrew: "הספר הוחזר לספרייה",
     },
     {
-      english: "He hasn’t spoken to his neighbor in months",
+      english: "He hasn't spoken to his neighbor in months",
       hebrew: "הוא לא דיבר עם שכנו כבר חודשים",
     },
     {
@@ -778,7 +778,7 @@ const sentencesFile = {
       hebrew: "הסיפור שותף על ידי רבים ברשתות החברתיות",
     },
     {
-      english: "He hasn’t traveled by plane in years",
+      english: "He hasn't traveled by plane in years",
       hebrew: "הוא לא נסע במטוס כבר שנים",
     },
     {
@@ -826,7 +826,7 @@ const sentencesFile = {
       hebrew: "הספר ניתן לי על ידי חבר",
     },
     {
-      english: "He hasn’t visited his hometown in years",
+      english: "He hasn't visited his hometown in years",
       hebrew: "הוא לא ביקר בעיר הולדתו כבר שנים",
     },
     {
@@ -874,7 +874,7 @@ const sentencesFile = {
       hebrew: "הארוחה בושלה על ידי סבתא שלי",
     },
     {
-      english: "He hasn’t seen his brother since the last family reunion",
+      english: "He hasn't seen his brother since the last family reunion",
       hebrew: "הוא לא ראה את אחיו מאז הפגישה המשפחתית האחרונה",
     },
     {
@@ -922,7 +922,7 @@ const sentencesFile = {
       hebrew: "הפרחים היו מתנה מחבר שלי",
     },
     {
-      english: "He hasn’t been able to sleep well lately",
+      english: "He hasn't been able to sleep well lately",
       hebrew: "הוא לא הצליח לישון טוב לאחרונה",
     },
     {
@@ -970,7 +970,7 @@ const sentencesFile = {
       hebrew: "הפרחים הושקו על ידי הגנן כל יום",
     },
     {
-      english: "He hasn’t been to the dentist in a long time",
+      english: "He hasn't been to the dentist in a long time",
       hebrew: "הוא לא היה אצל רופא השיניים כבר הרבה זמן",
     },
     {
@@ -1018,7 +1018,7 @@ const sentencesFile = {
       hebrew: "הפרחים סודרו באגרטל על השולחן",
     },
     {
-      english: "He hasn’t seen his childhood friend in years",
+      english: "He hasn't seen his childhood friend in years",
       hebrew: "הוא לא ראה את חברו מילדות במשך שנים",
     },
     {
@@ -1066,7 +1066,7 @@ const sentencesFile = {
       hebrew: "הפרחים סודרו על ידי אמא שלי",
     },
     {
-      english: "He hasn’t spoken to his sister in months",
+      english: "He hasn't spoken to his sister in months",
       hebrew: "הוא לא דיבר עם אחותו כבר חודשים",
     },
     {
@@ -1114,7 +1114,7 @@ const sentencesFile = {
       hebrew: "הפרחים היו מתנה ליום ההולדת שלי",
     },
     {
-      english: "He hasn’t driven his car in months",
+      english: "He hasn't driven his car in months",
       hebrew: "הוא לא נהג במכונית שלו כבר חודשים",
     },
     {

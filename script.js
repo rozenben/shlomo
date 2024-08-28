@@ -29,6 +29,10 @@ let timeLeft = gameTime;
 startGameButton.addEventListener("click", startGame);
 userInput.addEventListener("input", checkInput);
 
+document.getElementById("start-game").addEventListener("click", function () {
+  document.getElementById("game-area").classList.add("visible");
+});
+
 function startGame() {
   selectedLevel = englishLevel.value;
   gameTime = gameTimeElement.value;
@@ -55,10 +59,11 @@ function nextSentence() {
   //     sentencesFile["level" + selectedLevel].length
   // );
 
-  currentSentence =
-    sentencesFile["level" + selectedLevel][
-      Math.floor(Math.random() * sentencesFile["level" + selectedLevel].length)
-    ];
+  let randonIndex = Math.floor(
+    Math.random() * sentencesFile["level" + selectedLevel].length
+  );
+  console.log("randonIndex: " + randonIndex);
+  currentSentence = sentencesFile["level" + selectedLevel][randonIndex];
   if (currentSentence) {
     englishSentence.textContent = currentSentence.english;
     hebrewTranslation.textContent = currentSentence.hebrew;
