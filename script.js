@@ -50,6 +50,11 @@ function startGame() {
 function nextSentence() {
   // sentenceQueue.checkAndRefill();
   // currentSentence = sentenceQueue.dequeue();
+  console.log(
+    'sentencesFile["level" + selectedLevel].length: ' +
+      sentencesFile["level" + selectedLevel].length
+  );
+
   currentSentence =
     sentencesFile["level" + selectedLevel][
       Math.floor(Math.random() * sentencesFile["level" + selectedLevel].length)
