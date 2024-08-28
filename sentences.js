@@ -207,11 +207,236 @@ const sentencesFile = {
     { english: "I need help", hebrew: "אני צריך עזרה" },
     { english: "It is raining", hebrew: "יורד גשם" },
     { english: "Can you open the door?", hebrew: "אתה יכול לפתוח את הדלת?" },
+    { english: "The cat sleeps on the couch.", hebrew: "החתול ישן על הספה." },
+    { english: "She drinks water every day.", hebrew: "היא שותה מים כל יום." },
+    { english: "My brother has a big dog.", hebrew: "לאח שלי יש כלב גדול." },
+    { english: "The sun shines brightly.", hebrew: "השמש זורחת בבהירות." },
+    {
+      english: "We play soccer in the park.",
+      hebrew: "אנחנו משחקים כדורגל בפארק.",
+    },
+    {
+      english: "The birds sing in the morning.",
+      hebrew: "הציפורים שרות בבוקר.",
+    },
+    {
+      english: "I read a book before bed.",
+      hebrew: "אני קורא ספר לפני השינה.",
+    },
+    { english: "She wears a red dress.", hebrew: "היא לובשת שמלה אדומה." },
+    { english: "They live in a small house.", hebrew: "הם גרים בבית קטן." },
+    {
+      english: "He rides his bike to work.",
+      hebrew: "הוא רוכב על אופניו לעבודה.",
+    },
+    {
+      english: "The teacher writes on the board.",
+      hebrew: "המורה כותב על הלוח.",
+    },
+    {
+      english: "She loves to dance in the rain.",
+      hebrew: "היא אוהבת לרקוד בגשם.",
+    },
+    {
+      english: "I eat an apple every morning.",
+      hebrew: "אני אוכל תפוח כל בוקר.",
+    },
+    { english: "The baby sleeps in the crib.", hebrew: "התינוק ישן בעריסה." },
+    {
+      english: "We visit our grandparents on weekends.",
+      hebrew: "אנחנו מבקרים את סבא וסבתא בסופי שבוע.",
+    },
+    {
+      english: "He plays the piano beautifully.",
+      hebrew: "הוא מנגן בפסנתר יפה.",
+    },
+    {
+      english: "She has a lot of books in her room.",
+      hebrew: "יש לה הרבה ספרים בחדר שלה.",
+    },
+    { english: "The flowers bloom in spring.", hebrew: "הפרחים פורחים באביב." },
+    {
+      english: "They cook dinner together.",
+      hebrew: "הם מבשלים ארוחת ערב יחד.",
+    },
+    {
+      english: "I walk to school every day.",
+      hebrew: "אני הולך לבית הספר כל יום.",
+    },
+    {
+      english: "He reads the newspaper every morning.",
+      hebrew: "הוא קורא את העיתון כל בוקר.",
+    },
+    {
+      english: "She waters the plants every evening.",
+      hebrew: "היא משקה את הצמחים כל ערב.",
+    },
+    { english: "The sky is blue and clear.", hebrew: "השמיים כחולים ובהירים." },
+    {
+      english: "They swim in the lake during summer.",
+      hebrew: "הם שוחים באגם בקיץ.",
+    },
+    {
+      english: "He wears a warm coat in winter.",
+      hebrew: "הוא לובש מעיל חם בחורף.",
+    },
+    {
+      english: "The children play in the yard.",
+      hebrew: "הילדים משחקים בחצר.",
+    },
+    {
+      english: "I write in my diary every night.",
+      hebrew: "אני כותב ביומן שלי כל לילה.",
+    },
+    {
+      english: "She listens to music while studying.",
+      hebrew: "היא מקשיבה למוזיקה בזמן לימודים.",
+    },
+    { english: "The dog barks at strangers.", hebrew: "הכלב נובח על זרים." },
+    {
+      english: "We eat dinner together as a family.",
+      hebrew: "אנחנו אוכלים ארוחת ערב יחד כמשפחה.",
+    },
+    { english: "He likes to draw pictures.", hebrew: "הוא אוהב לצייר תמונות." },
+    {
+      english: "She brushes her teeth twice a day.",
+      hebrew: "היא מצחצחת את שיניה פעמיים ביום.",
+    },
+    {
+      english: "The bus arrives at 8:00 AM.",
+      hebrew: "האוטובוס מגיע בשעה 8:00 בבוקר.",
+    },
+    {
+      english: "They study in the library after school.",
+      hebrew: "הם לומדים בספרייה אחרי בית הספר.",
+    },
+    {
+      english: "I cook breakfast for my family.",
+      hebrew: "אני מבשל ארוחת בוקר למשפחה שלי.",
+    },
+    {
+      english: "She plays the guitar in the band.",
+      hebrew: "היא מנגנת בגיטרה בלהקה.",
+    },
+    {
+      english: "The children read storybooks.",
+      hebrew: "הילדים קוראים ספרי סיפורים.",
+    },
+    {
+      english: "He washes the dishes after dinner.",
+      hebrew: "הוא שוטף את הכלים אחרי ארוחת הערב.",
+    },
+    {
+      english: "She wears glasses to read.",
+      hebrew: "היא מרכיבה משקפיים לקריאה.",
+    },
+    {
+      english: "The snow covers the ground in winter.",
+      hebrew: "השלג מכסה את הקרקע בחורף.",
+    },
+    {
+      english: "We watch movies on weekends.",
+      hebrew: "אנחנו צופים בסרטים בסופי שבוע.",
+    },
+    {
+      english: "He likes to play chess with his friends.",
+      hebrew: "הוא אוהב לשחק שחמט עם חבריו.",
+    },
+    {
+      english: "She paints beautiful pictures.",
+      hebrew: "היא מציירת תמונות יפות.",
+    },
+    {
+      english: "The children sing songs together.",
+      hebrew: "הילדים שרים שירים יחד.",
+    },
+    { english: "I drink tea in the morning.", hebrew: "אני שותה תה בבוקר." },
+    {
+      english: "She likes to collect stamps.",
+      hebrew: "היא אוהבת לאסוף בולים.",
+    },
+    { english: "The car is parked outside.", hebrew: "המכונית חונה בחוץ." },
+    {
+      english: "They go on trips during the holidays.",
+      hebrew: "הם יוצאים לטיולים בחגים.",
+    },
+    { english: "He wears a hat in the sun.", hebrew: "הוא לובש כובע בשמש." },
+    {
+      english: "She makes delicious cakes.",
+      hebrew: "היא מכינה עוגות טעימות.",
+    },
+    {
+      english: "The children play with toys.",
+      hebrew: "הילדים משחקים עם צעצועים.",
+    },
+    {
+      english: "I visit the museum on weekends.",
+      hebrew: "אני מבקר במוזיאון בסופי שבוע.",
+    },
+    {
+      english: "She buys fresh vegetables from the market.",
+      hebrew: "היא קונה ירקות טריים מהשוק.",
+    },
+    {
+      english: "He listens to the radio in the car.",
+      hebrew: "הוא מאזין לרדיו במכונית.",
+    },
+    {
+      english: "The cat likes to chase mice.",
+      hebrew: "החתול אוהב לרדוף אחרי עכברים.",
+    },
+    {
+      english: "We hike in the mountains every summer.",
+      hebrew: "אנחנו מטיילים בהרים כל קיץ.",
+    },
+    {
+      english: "She enjoys reading magazines.",
+      hebrew: "היא נהנית לקרוא מגזינים.",
+    },
+    {
+      english: "He rides his horse in the field.",
+      hebrew: "הוא רוכב על סוסו בשדה.",
+    },
+    { english: "The flowers smell wonderful.", hebrew: "הפרחים מריחים נפלא." },
+    {
+      english: "We play board games on rainy days.",
+      hebrew: "אנחנו משחקים משחקי לוח בימים גשומים.",
+    },
+    {
+      english: "She bakes cookies for the children.",
+      hebrew: "היא אופה עוגיות לילדים.",
+    },
+    { english: "He drinks coffee with milk.", hebrew: "הוא שותה קפה עם חלב." },
+    {
+      english: "The kids enjoy playing in the snow.",
+      hebrew: "הילדים נהנים לשחק בשלג.",
+    },
+    {
+      english: "She writes letters to her friends.",
+      hebrew: "היא כותבת מכתבים לחברים שלה.",
+    },
+    {
+      english: "He likes to watch the sunset.",
+      hebrew: "הוא אוהב לצפות בשקיעה.",
+    },
+    { english: "The dog runs in the park.", hebrew: "הכלב רץ בפארק." },
+    {
+      english: "We visit the beach in the summer.",
+      hebrew: "אנחנו מבקרים בחוף בקיץ.",
+    },
+    {
+      english: "She drinks juice with her breakfast.",
+      hebrew: "היא שותה מיץ עם ארוחת הבוקר שלה.",
+    },
+    {
+      english: "The baby plays with a teddy bear.",
+      hebrew: "התינוק משחק עם דובון.",
+    },
+    { english: "I like to walk in the rain.", hebrew: "אני אוהב ללכת בגשם." },
   ],
 
   level3: [
     { english: "I work in a big company", hebrew: "אני עובד בחברה גדולה" },
-    { english: "She is my sister", hebrew: "היא אחותי" },
     { english: "We are going to the park", hebrew: "אנחנו הולכים לפארק" },
     { english: "He likes to play soccer", hebrew: "הוא אוהב לשחק כדורגל" },
     { english: "This book is interesting", hebrew: "הספר הזה מעניין" },
