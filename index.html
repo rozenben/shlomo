@@ -11,6 +11,17 @@
     <div class="container">
         <h1>משחק תרגום אנגלית-עברית</h1>
 
+        <div id="game-explanation" class="explanation">
+            <h3>משחק לימוד אנגלית</h3>
+            <ul>
+                <li>המשחק יראה משפטים באנגלית ואת התרגום שלהם, הוא ישמיע את המשפט פעם אחת ואז נוכל להקליד אותו.</li>
+                <li>בעזרת הקריאה, השמיעה והכתיבה - נגדיל את אוצר המילים שלנו ונלמד איך להשתמש בהם בצורה נכונה בתוך משפט.</li>
+                <li>על המסך יוצג הניקוד של המשחק הנוכחי ואת השיא שלנו - והמטרה היא לשבור את השיא כל יום.</li>
+                <li>נוכל להעלות את רמת הקושי בכל פעם שזה מרגיש קל מדי.</li>
+                <li>נוכל לראות בתחתית המסך את תוצאות ההקלדה - בירוק את ההקלדה הנכונה ובאדום את השגיאות.</li>
+            </ul>
+        </div>
+
         <div class="game-info">
             <div id="score" class="info-item">
                 <i class="fas fa-star"></i> ניקוד: <span id="current-score">0</span>
@@ -28,7 +39,7 @@
 
         <div id="game-area" style="display: none;">
             <div id="timer" class="info-item">
-                <i class="fas fa-hourglass-half"></i> זמן נותר: <span id="time-left"></span> שניות
+                <i class="fas fa-hourglass-half"></i> זמן נותר: <span id="time-left">--</span> שניות
             </div>
             <div id="english-sentence" class="sentence-box"></div>
             <div id="hebrew-translation" class="sentence-box"></div>
