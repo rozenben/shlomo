@@ -20,50 +20,64 @@ const feedback = document.getElementById("feedback");
 const currentScoreElement = document.getElementById("current-score");
 const bestScoreElement = document.getElementById("best-score");
 const timeLeftElement = document.getElementById("time-left");
-const englishLevel = document.getElementById("english-level");
-const gameTimeElement = document.getElementById("game-time");
-var selectedLevel = 4;
-var gameTime = (highScore = localStorage.getItem("gameTime") || 120);
-gameTimeElement.setAttribute("value", gameTime);
+const currentLevelElement = document.getElementById("current-level");
+const levelSelect = document.createElement("select");
+levelSelect.id = "level-select";
+const gameTimeInput = document.getElementById("game-time");
+
+// Add level options
+const levels = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"];
+levels.forEach((level, index) => {
+  const option = document.createElement("option");
+  option.value = index + 1;
+  option.textContent = level;
+  levelSelect.appendChild(option);
+});
+
+// Insert level select before the current level span
+currentLevelElement.parentNode.insertBefore(levelSelect, currentLevelElement);
+currentLevelElement.style.display = "none"; // Hide the static level text
+
+// Load saved level and game time from localStorage
+var selectedLevel = parseInt(localStorage.getItem("selectedLevel")) || 1;
+var gameTime = parseInt(localStorage.getItem("gameTime")) || 120;
 let timeLeft = gameTime;
+
+// Set initial values
+levelSelect.value = selectedLevel;
+gameTimeInput.value = gameTime;
+
 startGameButton.addEventListener("click", startGame);
 userInput.addEventListener("input", checkInput);
+levelSelect.addEventListener("change", function () {
+  selectedLevel = parseInt(this.value);
+  localStorage.setItem("selectedLevel", selectedLevel);
+  currentLevelElement.textContent = levels[selectedLevel - 1];
+});
 
-document.getElementById("start-game").addEventListener("click", function () {
-  document.getElementById("game-area").classList.add("visible");
+gameTimeInput.addEventListener("change", function () {
+  gameTime = parseInt(this.value);
+  localStorage.setItem("gameTime", gameTime);
 });
 
 function startGame() {
-  selectedLevel = englishLevel.value;
-  gameTime = gameTimeElement.value;
-  localStorage.setItem("gameTime", gameTime);
-  startGameButton.style.display = "none";
   gameArea.style.display = "block";
+  startGameButton.style.display = "none";
   currentScore = 0;
   timeLeft = gameTime;
+  userInput.value = "";
   userInput.focus();
   updateScore();
-  //   fetchSentencesFromAPI().then(() => {
-  //     nextSentence();
-  //     startTimer();
-  //   });
   nextSentence();
   startTimer();
+  gameArea.classList.add("visible");
 }
 
 function nextSentence() {
-  // sentenceQueue.checkAndRefill();
-  // currentSentence = sentenceQueue.dequeue();
-  // console.log(
-  //   'sentencesFile["level" + selectedLevel].length: ' +
-  //     sentencesFile["level" + selectedLevel].length
-  // );
-
-  let randonIndex = Math.floor(
+  let randomIndex = Math.floor(
     Math.random() * sentencesFile["level" + selectedLevel].length
   );
-  console.log("randonIndex: " + randonIndex);
-  currentSentence = sentencesFile["level" + selectedLevel][randonIndex];
+  currentSentence = sentencesFile["level" + selectedLevel][randomIndex];
   if (currentSentence) {
     englishSentence.textContent = currentSentence.english;
     hebrewTranslation.textContent = currentSentence.hebrew;
@@ -123,25 +137,22 @@ function endGame() {
   clearInterval(timerInterval);
   gameArea.style.display = "none";
   startGameButton.style.display = "block";
-  // alert(`המשחק נגמר! הניקוד שלך: ${currentScore}`);
+  alert(`המשחק נגמר! הניקוד שלך: ${currentScore}`);
 }
 
 function speakText(text) {
-  // Check if the browser supports Web Speech API
   if ("speechSynthesis" in window) {
-    // Create a new speech object
     const utterance = new SpeechSynthesisUtterance(text);
-
-    // Set the language to English
     utterance.lang = "en-US";
-
-    // Speak the text
     window.speechSynthesis.speak(utterance);
   } else {
     console.log("Your browser does not support text-to-speech.");
   }
 }
 
-// טעינת השיא מהאחסון המקומי
-highScore = localStorage.getItem("highScore") || 0;
+// Load high score from local storage
+highScore = parseInt(localStorage.getItem("highScore")) || 0;
 bestScoreElement.textContent = highScore;
+
+// Set initial level text
+currentLevelElement.textContent = levels[selectedLevel - 1];
