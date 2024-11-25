@@ -70,7 +70,6 @@ const sentencesFile = {
     { english: "She eats a cake", hebrew: "היא אוכלת עוגה" },
     { english: "He wears a coat", hebrew: "הוא לובש מעיל" },
     { english: "The sun is hot", hebrew: "השמש חמה" },
-    { english: "I like apples", hebrew: "אני אוהב תפוחים" },
     { english: "They have a house", hebrew: "יש להם בית" },
     { english: "She sees a cat", hebrew: "היא רואה חתול" },
     { english: "He plays a game", hebrew: "הוא משחק במשחק" },
@@ -82,7 +81,6 @@ const sentencesFile = {
     { english: "The dog is barking", hebrew: "הכלב נובח" },
     { english: "I see a rainbow", hebrew: "אני רואה קשת בענן" },
     { english: "We go to the zoo", hebrew: "אנחנו הולכים לגן החיות" },
-    { english: "She eats an apple", hebrew: "היא אוכלת תפוח" },
     { english: "He drinks juice", hebrew: "הוא שותה מיץ" },
     { english: "The bird is flying", hebrew: "הציפור עפה" },
     { english: "I have a pencil", hebrew: "יש לי עיפרון" },
@@ -138,7 +136,6 @@ const sentencesFile = {
     { english: "I drink water", hebrew: "אני שותה מים" },
     { english: "They play at home", hebrew: "הם משחקים בבית" },
     { english: "She reads at night", hebrew: "היא קוראת בלילה" },
-    { english: "He eats an apple", hebrew: "הוא אוכל תפוח" },
     { english: "The sun is shining", hebrew: "השמש זורחת" },
     { english: "I see a cloud", hebrew: "אני רואה ענן" },
     { english: "We play in the sand", hebrew: "אנחנו משחקים בחול" },
@@ -193,10 +190,665 @@ const sentencesFile = {
     { english: "I drink cold milk", hebrew: "אני שותה חלב קר" },
     { english: "We eat sandwiches", hebrew: "אנחנו אוכלים כריכים" },
     { english: "She reads her book", hebrew: "היא קוראת את הספר שלה" },
+    {
+      english: "She drinks water",
+      hebrew: "היא שותה מים",
+    },
+    {
+      english: "The book is blue",
+      hebrew: "הספר כחול",
+    },
+    {
+      english: "They play in the park",
+      hebrew: "הם משחקים בפארק",
+    },
+    {
+      english: "The sun is bright",
+      hebrew: "השמש בהירה",
+    },
+    {
+      english: "I love my dog",
+      hebrew: "אני אוהב את הכלב שלי",
+    },
+    {
+      english: "The door is open",
+      hebrew: "הדלת פתוחה",
+    },
+    {
+      english: "He walks to school",
+      hebrew: "הוא הולך לבית הספר",
+    },
+    {
+      english: "The bird flies high",
+      hebrew: "הציפור עפה גבוה",
+    },
+    {
+      english: "We read books",
+      hebrew: "אנחנו קוראים ספרים",
+    },
+    {
+      english: "The grass is green",
+      hebrew: "הדשא ירוק",
+    },
+    {
+      english: "I see the moon",
+      hebrew: "אני רואה את הירח",
+    },
+    {
+      english: "She has red hair",
+      hebrew: "יש לה שיער אדום",
+    },
+    {
+      english: "The car is fast",
+      hebrew: "המכונית מהירה",
+    },
+    {
+      english: "He likes pizza",
+      hebrew: "הוא אוהב פיצה",
+    },
+    {
+      english: "I write a letter",
+      hebrew: "אני כותב מכתב",
+    },
+    {
+      english: "The table is brown",
+      hebrew: "השולחן חום",
+    },
+    {
+      english: "She opens the window",
+      hebrew: "היא פותחת את החלון",
+    },
+    {
+      english: "The boy runs fast",
+      hebrew: "הילד רץ מהר",
+    },
+    {
+      english: "We swim in the pool",
+      hebrew: "אנחנו שוחים בבריכה",
+    },
+    {
+      english: "The food is hot",
+      hebrew: "האוכל חם",
+    },
+    {
+      english: "I close my eyes",
+      hebrew: "אני עוצם את העיניים",
+    },
+    {
+      english: "The phone rings",
+      hebrew: "הטלפון מצלצל",
+    },
+    {
+      english: "He drinks milk",
+      hebrew: "הוא שותה חלב",
+    },
+    {
+      english: "The ball bounces",
+      hebrew: "הכדור קופץ",
+    },
+    {
+      english: "I ride my bike",
+      hebrew: "אני רוכב על האופניים שלי",
+    },
+    {
+      english: "The flower grows",
+      hebrew: "הפרח גדל",
+    },
+    {
+      english: "She sings well",
+      hebrew: "היא שרה טוב",
+    },
+    {
+      english: "The dog barks",
+      hebrew: "הכלב נובח",
+    },
+    {
+      english: "We cook dinner",
+      hebrew: "אנחנו מבשלים ארוחת ערב",
+    },
+    {
+      english: "The clock ticks",
+      hebrew: "השעון מתקתק",
+    },
+    {
+      english: "I wash my hands",
+      hebrew: "אני רוחץ את הידיים שלי",
+    },
+    {
+      english: "The snow falls",
+      hebrew: "השלג יורד",
+    },
+    {
+      english: "He plays guitar",
+      hebrew: "הוא מנגן בגיטרה",
+    },
+    {
+      english: "The tree is tall",
+      hebrew: "העץ גבוה",
+    },
+    {
+      english: "I drink juice",
+      hebrew: "אני שותה מיץ",
+    },
+    {
+      english: "The door closes",
+      hebrew: "הדלת נסגרת",
+    },
+    {
+      english: "She reads a book",
+      hebrew: "היא קוראת ספר",
+    },
+    {
+      english: "The chair breaks",
+      hebrew: "הכיסא נשבר",
+    },
+    {
+      english: "We walk home",
+      hebrew: "אנחנו הולכים הביתה",
+    },
+    {
+      english: "The baby sleeps",
+      hebrew: "התינוק ישן",
+    },
+    {
+      english: "I paint a picture",
+      hebrew: "אני מצייר תמונה",
+    },
+    {
+      english: "The wind blows",
+      hebrew: "הרוח נושבת",
+    },
+    {
+      english: "He eats bread",
+      hebrew: "הוא אוכל לחם",
+    },
+    {
+      english: "The rain stops",
+      hebrew: "הגשם נפסק",
+    },
+    {
+      english: "I open the box",
+      hebrew: "אני פותח את הקופסה",
+    },
+    {
+      english: "The fish swims",
+      hebrew: "הדג שוחה",
+    },
+    {
+      english: "She jumps high",
+      hebrew: "היא קופצת גבוה",
+    },
+    {
+      english: "The light shines",
+      hebrew: "האור מאיר",
+    },
+    {
+      english: "We dance together",
+      hebrew: "אנחנו רוקדים ביחד",
+    },
+    {
+      english: "The bird sings",
+      hebrew: "הציפור שרה",
+    },
+    {
+      english: "I clean my room",
+      hebrew: "אני מנקה את החדר שלי",
+    },
+    {
+      english: "The bell rings",
+      hebrew: "הפעמון מצלצל",
+    },
+    {
+      english: "He draws a map",
+      hebrew: "הוא מצייר מפה",
+    },
+    {
+      english: "The sun sets",
+      hebrew: "השמש שוקעת",
+    },
+    {
+      english: "I smile at you",
+      hebrew: "אני מחייך אליך",
+    },
+    {
+      english: "The bus stops",
+      hebrew: "האוטובוס עוצר",
+    },
+    {
+      english: "She helps me",
+      hebrew: "היא עוזרת לי",
+    },
+    {
+      english: "The cat purrs",
+      hebrew: "החתול מגרגר",
+    },
+    {
+      english: "We laugh loudly",
+      hebrew: "אנחנו צוחקים בקול רם",
+    },
+    {
+      english: "The paper flies",
+      hebrew: "הנייר עף",
+    },
+    {
+      english: "I touch the wall",
+      hebrew: "אני נוגע בקיר",
+    },
+    {
+      english: "The stars shine",
+      hebrew: "הכוכבים זוהרים",
+    },
+    {
+      english: "He throws the ball",
+      hebrew: "הוא זורק את הכדור",
+    },
+    {
+      english: "The water flows",
+      hebrew: "המים זורמים",
+    },
+    {
+      english: "I wear a hat",
+      hebrew: "אני חובש כובע",
+    },
+    {
+      english: "The leaf falls",
+      hebrew: "העלה נופל",
+    },
+    {
+      english: "She climbs high",
+      hebrew: "היא מטפסת גבוה",
+    },
+    {
+      english: "The clock stops",
+      hebrew: "השעון נעצר",
+    },
+    {
+      english: "We sit down",
+      hebrew: "אנחנו מתיישבים",
+    },
+    {
+      english: "The door squeaks",
+      hebrew: "הדלת חורקת",
+    },
+    {
+      english: "I cut the bread",
+      hebrew: "אני חותך את הלחם",
+    },
+    {
+      english: "The movie starts",
+      hebrew: "הסרט מתחיל",
+    },
+    {
+      english: "He builds a house",
+      hebrew: "הוא בונה בית",
+    },
+    {
+      english: "The ice melts",
+      hebrew: "הקרח נמס",
+    },
+    {
+      english: "I fold the paper",
+      hebrew: "אני מקפל את הנייר",
+    },
+    {
+      english: "The mouse runs",
+      hebrew: "העכבר רץ",
+    },
+    {
+      english: "She bakes bread",
+      hebrew: "היא אופה לחם",
+    },
+    {
+      english: "The fire burns",
+      hebrew: "האש בוערת",
+    },
+    {
+      english: "We walk slowly",
+      hebrew: "אנחנו הולכים לאט",
+    },
+    {
+      english: "The car stops",
+      hebrew: "המכונית עוצרת",
+    },
+    {
+      english: "I push the button",
+      hebrew: "אני לוחץ על הכפתור",
+    },
+    {
+      english: "The flower blooms",
+      hebrew: "הפרח פורח",
+    },
+    {
+      english: "He stands up",
+      hebrew: "הוא קם",
+    },
+    {
+      english: "The clouds move",
+      hebrew: "העננים זזים",
+    },
+    {
+      english: "I count to ten",
+      hebrew: "אני סופר עד עשר",
+    },
+    {
+      english: "The plane flies",
+      hebrew: "המטוס טס",
+    },
+    {
+      english: "She draws circles",
+      hebrew: "היא מציירת עיגולים",
+    },
+    {
+      english: "The grass grows",
+      hebrew: "הדשא צומח",
+    },
+    {
+      english: "We clap hands",
+      hebrew: "אנחנו מוחאים כפיים",
+    },
+    {
+      english: "The moon rises",
+      hebrew: "הירח עולה",
+    },
+    {
+      english: "I tie my shoes",
+      hebrew: "אני קושר את הנעליים",
+    },
+    {
+      english: "The snake crawls",
+      hebrew: "הנחש זוחל",
+    },
+    {
+      english: "He catches fish",
+      hebrew: "הוא תופס דגים",
+    },
+    {
+      english: "The sugar dissolves",
+      hebrew: "הסוכר נמס",
+    },
+    {
+      english: "I pour water",
+      hebrew: "אני מוזג מים",
+    },
+    {
+      english: "The bear sleeps",
+      hebrew: "הדוב ישן",
+    },
+    {
+      english: "She feeds cats",
+      hebrew: "היא מאכילה חתולים",
+    },
+    {
+      english: "The river flows",
+      hebrew: "הנהר זורם",
+    },
+    {
+      english: "We drink tea",
+      hebrew: "אנחנו שותים תה",
+    },
+    {
+      english: "The branch breaks",
+      hebrew: "הענף נשבר",
+    },
+    {
+      english: "I need help",
+      hebrew: "אני צריך עזרה",
+    },
+    {
+      english: "The cup falls",
+      hebrew: "הכוס נופלת",
+    },
+    {
+      english: "He kicks balls",
+      hebrew: "הוא בועט בכדורים",
+    },
+    {
+      english: "The cake bakes",
+      hebrew: "העוגה נאפית",
+    },
+    {
+      english: "I throw stones",
+      hebrew: "אני זורק אבנים",
+    },
+    {
+      english: "The train moves",
+      hebrew: "הרכבת זזה",
+    },
+    {
+      english: "She drinks coffee",
+      hebrew: "היא שותה קפה",
+    },
+    {
+      english: "The candle burns",
+      hebrew: "הנר דולק",
+    },
+    {
+      english: "We play cards",
+      hebrew: "אנחנו משחקים בקלפים",
+    },
+    {
+      english: "The milk spills",
+      hebrew: "החלב נשפך",
+    },
+    {
+      english: "I climb trees",
+      hebrew: "אני מטפס על עצים",
+    },
+    {
+      english: "The rabbit hops",
+      hebrew: "הארנב מקפץ",
+    },
+    {
+      english: "He writes names",
+      hebrew: "הוא כותב שמות",
+    },
+    {
+      english: "The soap floats",
+      hebrew: "הסבון צף",
+    },
     { english: "He plays with a ball", hebrew: "הוא משחק עם כדור" },
   ],
 
   level2: [
+    { english: "The cat sleeps on the couch", hebrew: "החתול ישן על הספה" },
+    {
+      english: "She drinks coffee every morning",
+      hebrew: "היא שותה קפה כל בוקר",
+    },
+    {
+      english: "I brush my teeth twice a day",
+      hebrew: "אני מצחצח שיניים פעמיים ביום",
+    },
+    {
+      english: "He takes a shower before work",
+      hebrew: "הוא מתקלח לפני העבודה",
+    },
+    {
+      english: "They eat breakfast together",
+      hebrew: "הם אוכלים ארוחת בוקר ביחד",
+    },
+    { english: "My brother works in a restaurant", hebrew: "אחי עובד במסעדה" },
+    {
+      english: "She teaches English to children",
+      hebrew: "היא מלמדת אנגלית לילדים",
+    },
+    { english: "The meeting starts at nine", hebrew: "הפגישה מתחילה בתשע" },
+    {
+      english: "I study mathematics at university",
+      hebrew: "אני לומד מתמטיקה באוניברסיטה",
+    },
+    {
+      english: "He sends emails to clients",
+      hebrew: "הוא שולח אימיילים ללקוחות",
+    },
+    {
+      english: "They swim in the pool on weekends",
+      hebrew: "הם שוחים בבריכה בסופי שבוע",
+    },
+    { english: "I play guitar in a band", hebrew: "אני מנגן בגיטרה בלהקה" },
+    {
+      english: "She paints beautiful pictures",
+      hebrew: "היא מציירת תמונות יפות",
+    },
+    {
+      english: "We go hiking in the mountains",
+      hebrew: "אנחנו הולכים לטייל בהרים",
+    },
+    { english: "He collects rare stamps", hebrew: "הוא אוסף בולים נדירים" },
+    {
+      english: "The sun shines brightly today",
+      hebrew: "השמש זורחת בבהירות היום",
+    },
+    { english: "It rains in the winter", hebrew: "יורד גשם בחורף" },
+    { english: "The flowers bloom in spring", hebrew: "הפרחים פורחים באביב" },
+    { english: "Birds sing in the morning", hebrew: "ציפורים שרות בבוקר" },
+    {
+      english: "The wind blows through the trees",
+      hebrew: "הרוח נושבת דרך העצים",
+    },
+    { english: "I cook pasta for dinner", hebrew: "אני מבשל פסטה לארוחת ערב" },
+    { english: "She bakes fresh bread", hebrew: "היא אופה לחם טרי" },
+    {
+      english: "We eat at restaurants on Fridays",
+      hebrew: "אנחנו אוכלים במסעדות בימי שישי",
+    },
+    { english: "He makes delicious coffee", hebrew: "הוא מכין קפה טעים" },
+    {
+      english: "They order pizza for lunch",
+      hebrew: "הם מזמינים פיצה לארוחת צהריים",
+    },
+    { english: "My sister lives in London", hebrew: "אחותי גרה בלונדון" },
+    {
+      english: "We visit our grandparents weekly",
+      hebrew: "אנחנו מבקרים את הסבים והסבתות מדי שבוע",
+    },
+    {
+      english: "The children play with their cousins",
+      hebrew: "הילדים משחקים עם בני הדודים שלהם",
+    },
+    {
+      english: "She calls her mother every day",
+      hebrew: "היא מתקשרת לאמא שלה כל יום",
+    },
+    {
+      english: "He helps his brother with homework",
+      hebrew: "הוא עוזר לאח שלו בשיעורי בית",
+    },
+    {
+      english: "I buy groceries at the supermarket",
+      hebrew: "אני קונה מצרכים בסופרמרקט",
+    },
+    { english: "She shops for new clothes", hebrew: "היא קונה בגדים חדשים" },
+    { english: "We need to fix the car", hebrew: "אנחנו צריכים לתקן את הרכב" },
+    {
+      english: "He pays the bills online",
+      hebrew: "הוא משלם את החשבונות באינטרנט",
+    },
+    {
+      english: "They clean the house on Sunday",
+      hebrew: "הם מנקים את הבית ביום ראשון",
+    },
+    {
+      english: "The bus arrives at the station",
+      hebrew: "האוטובוס מגיע לתחנה",
+    },
+    {
+      english: "I drive to work every morning",
+      hebrew: "אני נוהג לעבודה כל בוקר",
+    },
+    {
+      english: "She rides her bicycle to school",
+      hebrew: "היא רוכבת על האופניים לבית הספר",
+    },
+    {
+      english: "We take the train to the city",
+      hebrew: "אנחנו לוקחים את הרכבת לעיר",
+    },
+    { english: "He walks to the park", hebrew: "הוא הולך לפארק" },
+    {
+      english: "I use the computer for work",
+      hebrew: "אני משתמש במחשב לעבודה",
+    },
+    {
+      english: "She charges her phone at night",
+      hebrew: "היא טוענת את הטלפון בלילה",
+    },
+    {
+      english: "We watch movies online",
+      hebrew: "אנחנו צופים בסרטים באינטרנט",
+    },
+    {
+      english: "He plays video games with friends",
+      hebrew: "הוא משחק במשחקי וידאו עם חברים",
+    },
+    {
+      english: "They update their software regularly",
+      hebrew: "הם מעדכנים את התוכנה באופן קבוע",
+    },
+    {
+      english: "I exercise three times a week",
+      hebrew: "אני מתאמן שלוש פעמים בשבוע",
+    },
+    { english: "She goes to yoga classes", hebrew: "היא הולכת לשיעורי יוגה" },
+    { english: "We run in the park", hebrew: "אנחנו רצים בפארק" },
+    {
+      english: "He lifts weights at the gym",
+      hebrew: "הוא מרים משקולות בחדר כושר",
+    },
+    {
+      english: "They practice meditation daily",
+      hebrew: "הם מתרגלים מדיטציה מדי יום",
+    },
+    { english: "I read books before bed", hebrew: "אני קורא ספרים לפני השינה" },
+    {
+      english: "She listens to music while working",
+      hebrew: "היא מקשיבה למוזיקה בזמן העבודה",
+    },
+    {
+      english: "We go to concerts monthly",
+      hebrew: "אנחנו הולכים להופעות מדי חודש",
+    },
+    { english: "He watches sports on TV", hebrew: "הוא צופה בספורט בטלוויזיה" },
+    { english: "They dance at parties", hebrew: "הם רוקדים במסיבות" },
+    { english: "I meet friends for coffee", hebrew: "אני נפגש עם חברים לקפה" },
+    {
+      english: "She hosts dinner parties",
+      hebrew: "היא מארחת מסיבות ארוחת ערב",
+    },
+    {
+      english: "We celebrate birthdays together",
+      hebrew: "אנחנו חוגגים ימי הולדת ביחד",
+    },
+    {
+      english: "He visits museums with friends",
+      hebrew: "הוא מבקר במוזיאונים עם חברים",
+    },
+    {
+      english: "They join community events",
+      hebrew: "הם משתתפים באירועים קהילתיים",
+    },
+    { english: "I wake up at six", hebrew: "אני מתעורר בשש" },
+    { english: "She makes the bed", hebrew: "היא מסדרת את המיטה" },
+    {
+      english: "We pack lunch for work",
+      hebrew: "אנחנו אורזים ארוחת צהריים לעבודה",
+    },
+    { english: "He sets an alarm clock", hebrew: "הוא מכוון שעון מעורר" },
+    { english: "They leave home at eight", hebrew: "הם יוצאים מהבית בשמונה" },
+    { english: "I feel happy today", hebrew: "אני מרגיש שמח היום" },
+    {
+      english: "She loves her new job",
+      hebrew: "היא אוהבת את העבודה החדשה שלה",
+    },
+    {
+      english: "We enjoy the summer weather",
+      hebrew: "אנחנו נהנים ממזג האוויר בקיץ",
+    },
+    {
+      english: "He misses his old friends",
+      hebrew: "הוא מתגעגע לחברים הישנים שלו",
+    },
+    { english: "They laugh at jokes", hebrew: "הם צוחקים מבדיחות" },
     { english: "I live in Tel Aviv", hebrew: "אני גר בתל אביב" },
     { english: "How are you?", hebrew: "מה שלומך?" },
     { english: "I like pizza", hebrew: "אני אוהב פיצה" },
@@ -207,232 +859,232 @@ const sentencesFile = {
     { english: "I need help", hebrew: "אני צריך עזרה" },
     { english: "It is raining", hebrew: "יורד גשם" },
     { english: "Can you open the door?", hebrew: "אתה יכול לפתוח את הדלת?" },
-    { english: "The cat sleeps on the couch.", hebrew: "החתול ישן על הספה." },
-    { english: "She drinks water every day.", hebrew: "היא שותה מים כל יום." },
-    { english: "My brother has a big dog.", hebrew: "לאח שלי יש כלב גדול." },
-    { english: "The sun shines brightly.", hebrew: "השמש זורחת בבהירות." },
+    { english: "The cat sleeps on the couch", hebrew: "החתול ישן על הספה" },
+    { english: "She drinks water every day", hebrew: "היא שותה מים כל יום" },
+    { english: "My brother has a big dog", hebrew: "לאח שלי יש כלב גדול" },
+    { english: "The sun shines brightly", hebrew: "השמש זורחת בבהירות" },
     {
-      english: "We play soccer in the park.",
-      hebrew: "אנחנו משחקים כדורגל בפארק.",
+      english: "We play soccer in the park",
+      hebrew: "אנחנו משחקים כדורגל בפארק",
     },
     {
-      english: "The birds sing in the morning.",
-      hebrew: "הציפורים שרות בבוקר.",
+      english: "The birds sing in the morning",
+      hebrew: "הציפורים שרות בבוקר",
     },
     {
-      english: "I read a book before bed.",
-      hebrew: "אני קורא ספר לפני השינה.",
+      english: "I read a book before bed",
+      hebrew: "אני קורא ספר לפני השינה",
     },
-    { english: "She wears a red dress.", hebrew: "היא לובשת שמלה אדומה." },
-    { english: "They live in a small house.", hebrew: "הם גרים בבית קטן." },
+    { english: "She wears a red dress", hebrew: "היא לובשת שמלה אדומה" },
+    { english: "They live in a small house", hebrew: "הם גרים בבית קטן" },
     {
-      english: "He rides his bike to work.",
-      hebrew: "הוא רוכב על אופניו לעבודה.",
-    },
-    {
-      english: "The teacher writes on the board.",
-      hebrew: "המורה כותב על הלוח.",
+      english: "He rides his bike to work",
+      hebrew: "הוא רוכב על אופניו לעבודה",
     },
     {
-      english: "She loves to dance in the rain.",
-      hebrew: "היא אוהבת לרקוד בגשם.",
+      english: "The teacher writes on the board",
+      hebrew: "המורה כותב על הלוח",
     },
     {
-      english: "I eat an apple every morning.",
-      hebrew: "אני אוכל תפוח כל בוקר.",
-    },
-    { english: "The baby sleeps in the crib.", hebrew: "התינוק ישן בעריסה." },
-    {
-      english: "We visit our grandparents on weekends.",
-      hebrew: "אנחנו מבקרים את סבא וסבתא בסופי שבוע.",
+      english: "She loves to dance in the rain",
+      hebrew: "היא אוהבת לרקוד בגשם",
     },
     {
-      english: "He plays the piano beautifully.",
-      hebrew: "הוא מנגן בפסנתר יפה.",
+      english: "I eat an apple every morning",
+      hebrew: "אני אוכל תפוח כל בוקר",
+    },
+    { english: "The baby sleeps in the crib", hebrew: "התינוק ישן בעריסה" },
+    {
+      english: "We visit our grandparents on weekends",
+      hebrew: "אנחנו מבקרים את סבא וסבתא בסופי שבוע",
     },
     {
-      english: "She has a lot of books in her room.",
-      hebrew: "יש לה הרבה ספרים בחדר שלה.",
-    },
-    { english: "The flowers bloom in spring.", hebrew: "הפרחים פורחים באביב." },
-    {
-      english: "They cook dinner together.",
-      hebrew: "הם מבשלים ארוחת ערב יחד.",
+      english: "He plays the piano beautifully",
+      hebrew: "הוא מנגן בפסנתר יפה",
     },
     {
-      english: "I walk to school every day.",
-      hebrew: "אני הולך לבית הספר כל יום.",
+      english: "She has a lot of books in her room",
+      hebrew: "יש לה הרבה ספרים בחדר שלה",
+    },
+    { english: "The flowers bloom in spring", hebrew: "הפרחים פורחים באביב" },
+    {
+      english: "They cook dinner together",
+      hebrew: "הם מבשלים ארוחת ערב יחד",
     },
     {
-      english: "He reads the newspaper every morning.",
-      hebrew: "הוא קורא את העיתון כל בוקר.",
+      english: "I walk to school every day",
+      hebrew: "אני הולך לבית הספר כל יום",
     },
     {
-      english: "She waters the plants every evening.",
-      hebrew: "היא משקה את הצמחים כל ערב.",
-    },
-    { english: "The sky is blue and clear.", hebrew: "השמיים כחולים ובהירים." },
-    {
-      english: "They swim in the lake during summer.",
-      hebrew: "הם שוחים באגם בקיץ.",
+      english: "He reads the newspaper every morning",
+      hebrew: "הוא קורא את העיתון כל בוקר",
     },
     {
-      english: "He wears a warm coat in winter.",
-      hebrew: "הוא לובש מעיל חם בחורף.",
+      english: "She waters the plants every evening",
+      hebrew: "היא משקה את הצמחים כל ערב",
+    },
+    { english: "The sky is blue and clear", hebrew: "השמיים כחולים ובהירים" },
+    {
+      english: "They swim in the lake during summer",
+      hebrew: "הם שוחים באגם בקיץ",
     },
     {
-      english: "The children play in the yard.",
-      hebrew: "הילדים משחקים בחצר.",
+      english: "He wears a warm coat in winter",
+      hebrew: "הוא לובש מעיל חם בחורף",
     },
     {
-      english: "I write in my diary every night.",
-      hebrew: "אני כותב ביומן שלי כל לילה.",
+      english: "The children play in the yard",
+      hebrew: "הילדים משחקים בחצר",
     },
     {
-      english: "She listens to music while studying.",
-      hebrew: "היא מקשיבה למוזיקה בזמן לימודים.",
-    },
-    { english: "The dog barks at strangers.", hebrew: "הכלב נובח על זרים." },
-    {
-      english: "We eat dinner together as a family.",
-      hebrew: "אנחנו אוכלים ארוחת ערב יחד כמשפחה.",
-    },
-    { english: "He likes to draw pictures.", hebrew: "הוא אוהב לצייר תמונות." },
-    {
-      english: "She brushes her teeth twice a day.",
-      hebrew: "היא מצחצחת את שיניה פעמיים ביום.",
+      english: "I write in my diary every night",
+      hebrew: "אני כותב ביומן שלי כל לילה",
     },
     {
-      english: "The bus arrives at 8:00 AM.",
-      hebrew: "האוטובוס מגיע בשעה 8:00 בבוקר.",
+      english: "She listens to music while studying",
+      hebrew: "היא מקשיבה למוזיקה בזמן לימודים",
+    },
+    { english: "The dog barks at strangers", hebrew: "הכלב נובח על זרים" },
+    {
+      english: "We eat dinner together as a family",
+      hebrew: "אנחנו אוכלים ארוחת ערב יחד כמשפחה",
+    },
+    { english: "He likes to draw pictures", hebrew: "הוא אוהב לצייר תמונות" },
+    {
+      english: "She brushes her teeth twice a day",
+      hebrew: "היא מצחצחת את שיניה פעמיים ביום",
     },
     {
-      english: "They study in the library after school.",
-      hebrew: "הם לומדים בספרייה אחרי בית הספר.",
+      english: "The bus arrives at 8:00 AM",
+      hebrew: "האוטובוס מגיע בשעה 8:00 בבוקר",
     },
     {
-      english: "I cook breakfast for my family.",
-      hebrew: "אני מבשל ארוחת בוקר למשפחה שלי.",
+      english: "They study in the library after school",
+      hebrew: "הם לומדים בספרייה אחרי בית הספר",
     },
     {
-      english: "She plays the guitar in the band.",
-      hebrew: "היא מנגנת בגיטרה בלהקה.",
+      english: "I cook breakfast for my family",
+      hebrew: "אני מבשל ארוחת בוקר למשפחה שלי",
     },
     {
-      english: "The children read storybooks.",
-      hebrew: "הילדים קוראים ספרי סיפורים.",
+      english: "She plays the guitar in the band",
+      hebrew: "היא מנגנת בגיטרה בלהקה",
     },
     {
-      english: "He washes the dishes after dinner.",
-      hebrew: "הוא שוטף את הכלים אחרי ארוחת הערב.",
+      english: "The children read storybooks",
+      hebrew: "הילדים קוראים ספרי סיפורים",
     },
     {
-      english: "She wears glasses to read.",
-      hebrew: "היא מרכיבה משקפיים לקריאה.",
+      english: "He washes the dishes after dinner",
+      hebrew: "הוא שוטף את הכלים אחרי ארוחת הערב",
     },
     {
-      english: "The snow covers the ground in winter.",
-      hebrew: "השלג מכסה את הקרקע בחורף.",
+      english: "She wears glasses to read",
+      hebrew: "היא מרכיבה משקפיים לקריאה",
     },
     {
-      english: "We watch movies on weekends.",
-      hebrew: "אנחנו צופים בסרטים בסופי שבוע.",
+      english: "The snow covers the ground in winter",
+      hebrew: "השלג מכסה את הקרקע בחורף",
     },
     {
-      english: "He likes to play chess with his friends.",
-      hebrew: "הוא אוהב לשחק שחמט עם חבריו.",
+      english: "We watch movies on weekends",
+      hebrew: "אנחנו צופים בסרטים בסופי שבוע",
     },
     {
-      english: "She paints beautiful pictures.",
-      hebrew: "היא מציירת תמונות יפות.",
+      english: "He likes to play chess with his friends",
+      hebrew: "הוא אוהב לשחק שחמט עם חבריו",
     },
     {
-      english: "The children sing songs together.",
-      hebrew: "הילדים שרים שירים יחד.",
-    },
-    { english: "I drink tea in the morning.", hebrew: "אני שותה תה בבוקר." },
-    {
-      english: "She likes to collect stamps.",
-      hebrew: "היא אוהבת לאסוף בולים.",
-    },
-    { english: "The car is parked outside.", hebrew: "המכונית חונה בחוץ." },
-    {
-      english: "They go on trips during the holidays.",
-      hebrew: "הם יוצאים לטיולים בחגים.",
-    },
-    { english: "He wears a hat in the sun.", hebrew: "הוא לובש כובע בשמש." },
-    {
-      english: "She makes delicious cakes.",
-      hebrew: "היא מכינה עוגות טעימות.",
+      english: "She paints beautiful pictures",
+      hebrew: "היא מציירת תמונות יפות",
     },
     {
-      english: "The children play with toys.",
-      hebrew: "הילדים משחקים עם צעצועים.",
+      english: "The children sing songs together",
+      hebrew: "הילדים שרים שירים יחד",
+    },
+    { english: "I drink tea in the morning", hebrew: "אני שותה תה בבוקר" },
+    {
+      english: "She likes to collect stamps",
+      hebrew: "היא אוהבת לאסוף בולים",
+    },
+    { english: "The car is parked outside", hebrew: "המכונית חונה בחוץ" },
+    {
+      english: "They go on trips during the holidays",
+      hebrew: "הם יוצאים לטיולים בחגים",
+    },
+    { english: "He wears a hat in the sun", hebrew: "הוא לובש כובע בשמש" },
+    {
+      english: "She makes delicious cakes",
+      hebrew: "היא מכינה עוגות טעימות",
     },
     {
-      english: "I visit the museum on weekends.",
-      hebrew: "אני מבקר במוזיאון בסופי שבוע.",
+      english: "The children play with toys",
+      hebrew: "הילדים משחקים עם צעצועים",
     },
     {
-      english: "She buys fresh vegetables from the market.",
-      hebrew: "היא קונה ירקות טריים מהשוק.",
+      english: "I visit the museum on weekends",
+      hebrew: "אני מבקר במוזיאון בסופי שבוע",
     },
     {
-      english: "He listens to the radio in the car.",
-      hebrew: "הוא מאזין לרדיו במכונית.",
+      english: "She buys fresh vegetables from the market",
+      hebrew: "היא קונה ירקות טריים מהשוק",
     },
     {
-      english: "The cat likes to chase mice.",
-      hebrew: "החתול אוהב לרדוף אחרי עכברים.",
+      english: "He listens to the radio in the car",
+      hebrew: "הוא מאזין לרדיו במכונית",
     },
     {
-      english: "We hike in the mountains every summer.",
-      hebrew: "אנחנו מטיילים בהרים כל קיץ.",
+      english: "The cat likes to chase mice",
+      hebrew: "החתול אוהב לרדוף אחרי עכברים",
     },
     {
-      english: "She enjoys reading magazines.",
-      hebrew: "היא נהנית לקרוא מגזינים.",
+      english: "We hike in the mountains every summer",
+      hebrew: "אנחנו מטיילים בהרים כל קיץ",
     },
     {
-      english: "He rides his horse in the field.",
-      hebrew: "הוא רוכב על סוסו בשדה.",
-    },
-    { english: "The flowers smell wonderful.", hebrew: "הפרחים מריחים נפלא." },
-    {
-      english: "We play board games on rainy days.",
-      hebrew: "אנחנו משחקים משחקי לוח בימים גשומים.",
+      english: "She enjoys reading magazines",
+      hebrew: "היא נהנית לקרוא מגזינים",
     },
     {
-      english: "She bakes cookies for the children.",
-      hebrew: "היא אופה עוגיות לילדים.",
+      english: "He rides his horse in the field",
+      hebrew: "הוא רוכב על סוסו בשדה",
     },
-    { english: "He drinks coffee with milk.", hebrew: "הוא שותה קפה עם חלב." },
+    { english: "The flowers smell wonderful", hebrew: "הפרחים מריחים נפלא" },
     {
-      english: "The kids enjoy playing in the snow.",
-      hebrew: "הילדים נהנים לשחק בשלג.",
-    },
-    {
-      english: "She writes letters to her friends.",
-      hebrew: "היא כותבת מכתבים לחברים שלה.",
+      english: "We play board games on rainy days",
+      hebrew: "אנחנו משחקים משחקי לוח בימים גשומים",
     },
     {
-      english: "He likes to watch the sunset.",
-      hebrew: "הוא אוהב לצפות בשקיעה.",
+      english: "She bakes cookies for the children",
+      hebrew: "היא אופה עוגיות לילדים",
     },
-    { english: "The dog runs in the park.", hebrew: "הכלב רץ בפארק." },
+    { english: "He drinks coffee with milk", hebrew: "הוא שותה קפה עם חלב" },
     {
-      english: "We visit the beach in the summer.",
-      hebrew: "אנחנו מבקרים בחוף בקיץ.",
-    },
-    {
-      english: "She drinks juice with her breakfast.",
-      hebrew: "היא שותה מיץ עם ארוחת הבוקר שלה.",
+      english: "The kids enjoy playing in the snow",
+      hebrew: "הילדים נהנים לשחק בשלג",
     },
     {
-      english: "The baby plays with a teddy bear.",
-      hebrew: "התינוק משחק עם דובון.",
+      english: "She writes letters to her friends",
+      hebrew: "היא כותבת מכתבים לחברים שלה",
     },
-    { english: "I like to walk in the rain.", hebrew: "אני אוהב ללכת בגשם." },
+    {
+      english: "He likes to watch the sunset",
+      hebrew: "הוא אוהב לצפות בשקיעה",
+    },
+    { english: "The dog runs in the park", hebrew: "הכלב רץ בפארק" },
+    {
+      english: "We visit the beach in the summer",
+      hebrew: "אנחנו מבקרים בחוף בקיץ",
+    },
+    {
+      english: "She drinks juice with her breakfast",
+      hebrew: "היא שותה מיץ עם ארוחת הבוקר שלה",
+    },
+    {
+      english: "The baby plays with a teddy bear",
+      hebrew: "התינוק משחק עם דובון",
+    },
+    { english: "I like to walk in the rain", hebrew: "אני אוהב ללכת בגשם" },
   ],
 
   level3: [
@@ -446,211 +1098,803 @@ const sentencesFile = {
       english: "I usually wake up early",
       hebrew: "בדרך כלל אני מתעורר מוקדם",
     },
+    {
+      english: "The garden was filled with colorful flowers",
+      hebrew: "הגן היה מלא בפרחים צבעוניים",
+    },
+    {
+      english: "She usually takes the bus to work every morning",
+      hebrew: "היא בדרך כלל נוסעת באוטובוס לעבודה כל בוקר",
+    },
+    {
+      english: "The children were playing in the park yesterday",
+      hebrew: "הילדים שיחקו בפארק אתמול",
+    },
+    {
+      english: "I will visit my grandmother next weekend",
+      hebrew: "אני אבקר את סבתא שלי בסוף השבוע הבא",
+    },
+    {
+      english: "The movie was interesting but a bit too long",
+      hebrew: "הסרט היה מעניין אבל קצת ארוך מדי",
+    },
+    {
+      english: "He forgot to bring his umbrella and got wet in the rain",
+      hebrew: "הוא שכח להביא את המטריה שלו ונרטב בגשם",
+    },
+    {
+      english: "The restaurant serves delicious Italian food",
+      hebrew: "המסעדה מגישה אוכל איטלקי טעים",
+    },
+    {
+      english: "My brother is studying computer science at university",
+      hebrew: "אחי לומד מדעי המחשב באוניברסיטה",
+    },
+    {
+      english: "They are planning to move to a new apartment next month",
+      hebrew: "הם מתכננים לעבור לדירה חדשה בחודש הבא",
+    },
+    {
+      english: "The weather forecast predicts rain for tomorrow",
+      hebrew: "תחזית מזג האוויר מנבאת גשם למחר",
+    },
+    {
+      english: "She has been learning to play the piano for two years",
+      hebrew: "היא לומדת לנגן בפסנתר כבר שנתיים",
+    },
+    {
+      english: "The museum will open a new exhibition next week",
+      hebrew: "המוזיאון יפתח תערוכה חדשה בשבוע הבא",
+    },
+    {
+      english: "I need to buy some groceries on my way home",
+      hebrew: "אני צריך לקנות מצרכים בדרך הביתה",
+    },
+    {
+      english: "The teacher explained the lesson very clearly",
+      hebrew: "המורה הסביר את השיעור בצורה מאוד ברורה",
+    },
+    {
+      english: "We should arrive at the airport two hours before the flight",
+      hebrew: "אנחנו צריכים להגיע לשדה התעופה שעתיים לפני הטיסה",
+    },
+    {
+      english: "The cake she baked smells wonderful",
+      hebrew: "העוגה שהיא אפתה מריחה נפלא",
+    },
+    {
+      english: "My sister works as a nurse in the local hospital",
+      hebrew: "אחותי עובדת כאחות בבית החולים המקומי",
+    },
+    {
+      english: "The concert will start at eight o'clock tonight",
+      hebrew: "הקונצרט יתחיל בשעה שמונה הערב",
+    },
+    {
+      english: "He always helps his neighbors when they need assistance",
+      hebrew: "הוא תמיד עוזר לשכנים שלו כשהם צריכים עזרה",
+    },
+    {
+      english: "The library closes at six in the evening",
+      hebrew: "הספרייה נסגרת בשש בערב",
+    },
+    {
+      english: "The sunset painted the sky in beautiful colors",
+      hebrew: "השקיעה צבעה את השמיים בצבעים יפים",
+    },
+    {
+      english: "His favorite hobby is collecting old coins",
+      hebrew: "התחביב האהוב עליו הוא איסוף מטבעות ישנים",
+    },
+    {
+      english: "The bakery sells fresh bread every morning",
+      hebrew: "המאפייה מוכרת לחם טרי כל בוקר",
+    },
+    {
+      english: "We need to clean the house before the guests arrive",
+      hebrew: "אנחנו צריכים לנקות את הבית לפני שהאורחים מגיעים",
+    },
+    {
+      english: "The dentist recommended brushing teeth twice a day",
+      hebrew: "רופא השיניים המליץ לצחצח שיניים פעמיים ביום",
+    },
+    {
+      english: "The new shopping center opened last month",
+      hebrew: "מרכז הקניות החדש נפתח בחודש שעבר",
+    },
+    {
+      english: "She forgot her laptop at the coffee shop",
+      hebrew: "היא שכחה את המחשב הנייד שלה בבית הקפה",
+    },
+    {
+      english: "The dog chased a squirrel in the park",
+      hebrew: "הכלב רדף אחרי סנאי בפארק",
+    },
+    {
+      english: "We ordered pizza for dinner last night",
+      hebrew: "הזמנו פיצה לארוחת ערב אתמול בלילה",
+    },
+    {
+      english: "The painter is working on a new masterpiece",
+      hebrew: "הצייר עובד על יצירת מופת חדשה",
+    },
+    {
+      english: "She wants to learn how to speak Spanish",
+      hebrew: "היא רוצה ללמוד לדבר ספרדית",
+    },
+    {
+      english: "The mechanic fixed my car's broken headlight",
+      hebrew: "המכונאי תיקן את הפנס השבור של המכונית שלי",
+    },
+    {
+      english: "We planted new flowers in the garden",
+      hebrew: "שתלנו פרחים חדשים בגינה",
+    },
+    {
+      english: "The chef prepared a special dessert for the party",
+      hebrew: "השף הכין קינוח מיוחד למסיבה",
+    },
+    {
+      english: "They built a new playground for the children",
+      hebrew: "הם בנו מגרש משחקים חדש לילדים",
+    },
+    {
+      english: "She bought a new pair of running shoes",
+      hebrew: "היא קנתה זוג נעלי ריצה חדשות",
+    },
+    {
+      english: "The train arrives at platform three",
+      hebrew: "הרכבת מגיעה לרציף שלוש",
+    },
+    {
+      english: "He needs to finish his homework before dinner",
+      hebrew: "הוא צריך לסיים את שיעורי הבית לפני ארוחת הערב",
+    },
+    {
+      english: "The meeting starts in fifteen minutes",
+      hebrew: "הפגישה מתחילה בעוד חמש עשרה דקות",
+    },
+    {
+      english: "They celebrated their anniversary at a fancy restaurant",
+      hebrew: "הם חגגו את יום הנישואים שלהם במסעדה יוקרתית",
+    },
+    {
+      english: "The children built a sandcastle on the beach",
+      hebrew: "הילדים בנו ארמון חול על החוף",
+    },
+    {
+      english: "She received a package in the mail today",
+      hebrew: "היא קיבלה חבילה בדואר היום",
+    },
+    {
+      english: "The guitarist played a beautiful melody",
+      hebrew: "הגיטריסט ניגן מנגינה יפה",
+    },
+    {
+      english: "We need to buy new batteries for the remote control",
+      hebrew: "אנחנו צריכים לקנות סוללות חדשות לשלט רחוק",
+    },
+    {
+      english: "The festival will be held in the city center",
+      hebrew: "הפסטיבל יתקיים במרכז העיר",
+    },
+    {
+      english: "She waters her plants every other day",
+      hebrew: "היא משקה את הצמחים שלה יום כן יום לא",
+    },
+    {
+      english: "The doctor prescribed new medication for his headaches",
+      hebrew: "הרופא רשם תרופה חדשה לכאבי הראש שלו",
+    },
+    {
+      english: "They installed solar panels on their roof",
+      hebrew: "הם התקינו פאנלים סולאריים על הגג שלהם",
+    },
+    {
+      english: "The museum displays ancient artifacts",
+      hebrew: "המוזיאון מציג ממצאים עתיקים",
+    },
+    {
+      english: "She practices violin for two hours every day",
+      hebrew: "היא מתאמנת על כינור שעתיים בכל יום",
+    },
+    {
+      english: "The security guard checks all visitors' bags",
+      hebrew: "השומר בודק את התיקים של כל המבקרים",
+    },
+    {
+      english: "We should recycle plastic bottles and newspapers",
+      hebrew: "אנחנו צריכים למחזר בקבוקי פלסטיק ועיתונים",
+    },
+    {
+      english: "The actor won an award for his performance",
+      hebrew: "השחקן זכה בפרס על הביצוע שלו",
+    },
+    {
+      english: "She designs websites for small businesses",
+      hebrew: "היא מעצבת אתרי אינטרנט לעסקים קטנים",
+    },
+    {
+      english: "The football team won their last match",
+      hebrew: "קבוצת הכדורגל ניצחה במשחק האחרון שלהם",
+    },
+    {
+      english: "We need to schedule a dental appointment",
+      hebrew: "אנחנו צריכים לקבוע תור לרופא שיניים",
+    },
+    {
+      english: "The carpenter built a beautiful wooden table",
+      hebrew: "הנגר בנה שולחן עץ יפה",
+    },
+    {
+      english: "She teaches art classes at the community center",
+      hebrew: "היא מלמדת שיעורי אמנות במרכז הקהילתי",
+    },
+    {
+      english: "The bus driver knows all the regular passengers",
+      hebrew: "נהג האוטובוס מכיר את כל הנוסעים הקבועים",
+    },
+    {
+      english: "They painted their bedroom walls light blue",
+      hebrew: "הם צבעו את קירות חדר השינה בכחול בהיר",
+    },
+    {
+      english: "The baker makes fresh croissants every morning",
+      hebrew: "האופה מכין קרואסונים טריים כל בוקר",
+    },
+    {
+      english: "She adopted a puppy from the animal shelter",
+      hebrew: "היא אימצה גור כלבים מבית המחסה לחיות",
+    },
+    {
+      english: "The journalist wrote an interesting article",
+      hebrew: "העיתונאי כתב כתבה מעניינת",
+    },
+    {
+      english: "We need to fix the leaking faucet",
+      hebrew: "אנחנו צריכים לתקן את הברז הדולף",
+    },
+    {
+      english: "The photographer captured beautiful sunset pictures",
+      hebrew: "הצלם צילם תמונות יפות של השקיעה",
+    },
+    {
+      english: "She organized a surprise birthday party",
+      hebrew: "היא ארגנה מסיבת יום הולדת הפתעה",
+    },
+    {
+      english: "The dentist found two cavities during the checkup",
+      hebrew: "רופא השיניים מצא שתי עששות במהלך הבדיקה",
+    },
+    {
+      english: "They bought tickets for the theater show",
+      hebrew: "הם קנו כרטיסים להצגה בתיאטרון",
+    },
+    {
+      english: "The gardener trimmed all the hedges",
+      hebrew: "הגנן גזם את כל הגדרות החיות",
+    },
+    {
+      english: "She makes her own jewelry at home",
+      hebrew: "היא מכינה תכשיטים בעצמה בבית",
+    },
+    {
+      english: "The pilot announced some turbulence ahead",
+      hebrew: "הטייס הודיע על טלטולים בהמשך",
+    },
+    {
+      english: "We should arrive ten minutes before the movie starts",
+      hebrew: "אנחנו צריכים להגיע עשר דקות לפני שהסרט מתחיל",
+    },
+    {
+      english: "The chef added fresh herbs to the soup",
+      hebrew: "השף הוסיף עשבי תיבול טריים למרק",
+    },
+    {
+      english: "She reads bedtime stories to her children",
+      hebrew: "היא קוראת סיפורי לילה טוב לילדים שלה",
+    },
+    {
+      english: "The electrician installed new light fixtures",
+      hebrew: "החשמלאי התקין גופי תאורה חדשים",
+    },
+    {
+      english: "They went hiking in the mountains last weekend",
+      hebrew: "הם יצאו לטיול בהרים בסוף השבוע שעבר",
+    },
     { english: "She has a lot of friends", hebrew: "יש לה הרבה חברים" },
     { english: "Can I ask you a question?", hebrew: "אפשר לשאול אותך שאלה?" },
     {
-      english: "The garden was filled with colorful flowers.",
-      hebrew: "הגן היה מלא בפרחים צבעוניים.",
+      english: "The sunset painted the sky in beautiful colors",
+      hebrew: "השקיעה צבעה את השמיים בצבעים יפים",
     },
     {
-      english: "She carried a heavy bag on her shoulder.",
-      hebrew: "היא נשאה תיק כבד על כתפה.",
+      english: "His favorite hobby is collecting old coins",
+      hebrew: "התחביב האהוב עליו הוא איסוף מטבעות ישנים",
     },
     {
-      english: "The children were playing with a new toy.",
-      hebrew: "הילדים שיחקו בצעצוע חדש.",
+      english: "The bakery sells fresh bread every morning",
+      hebrew: "המאפייה מוכרת לחם טרי כל בוקר",
     },
     {
-      english: "He wrote a letter to his grandmother.",
-      hebrew: "הוא כתב מכתב לסבתו.",
+      english: "We need to clean the house before the guests arrive",
+      hebrew: "אנחנו צריכים לנקות את הבית לפני שהאורחים מגיעים",
     },
     {
-      english: "The sun was shining brightly in the sky.",
-      hebrew: "השמש זרחה בחוזקה בשמיים.",
+      english: "The dentist recommended brushing teeth twice a day",
+      hebrew: "רופא השיניים המליץ לצחצח שיניים פעמיים ביום",
     },
     {
-      english: "They decided to take a walk in the park.",
-      hebrew: "הם החליטו לצאת לטיול בפארק.",
+      english: "They are renovating the old shopping mall",
+      hebrew: "הם משפצים את הקניון הישן",
     },
     {
-      english: "The book was interesting and full of adventure.",
-      hebrew: "הספר היה מעניין ומלא בהרפתקאות.",
+      english: "The choir practiced for two hours yesterday",
+      hebrew: "המקהלה התאמנה במשך שעתיים אתמול",
     },
     {
-      english: "She cooked a delicious meal for her family.",
-      hebrew: "היא בישלה ארוחה טעימה למשפחתה.",
+      english: "She planted new flowers in her balcony garden",
+      hebrew: "היא שתלה פרחים חדשים בגינת המרפסת שלה",
     },
     {
-      english: "He solved the puzzle after thinking for a while.",
-      hebrew: "הוא פתר את הפאזל לאחר מחשבה ממושכת.",
+      english: "The football match ended in a tie",
+      hebrew: "משחק הכדורגל הסתיים בתיקו",
     },
     {
-      english: "The dog barked loudly at the strangers.",
-      hebrew: "הכלב נבח בקול רם על הזרים.",
+      english: "My grandmother taught me how to knit scarves",
+      hebrew: "סבתא שלי לימדה אותי איך לסרוג צעיפים",
     },
     {
-      english: "They watched a movie together in the evening.",
-      hebrew: "הם צפו בסרט יחד בערב.",
+      english: "The chef added secret spices to the sauce",
+      hebrew: "השף הוסיף תבלינים סודיים לרוטב",
     },
     {
-      english: "The river flowed smoothly through the valley.",
-      hebrew: "הנהר זרם בצורה חלקה דרך העמק.",
+      english: "They are planning a surprise party for his graduation",
+      hebrew: "הם מתכננים מסיבת הפתעה לסיום הלימודים שלו",
     },
     {
-      english: "She drew a beautiful picture of the mountains.",
-      hebrew: "היא ציירה תמונה יפה של ההרים.",
+      english: "The children built a snowman after the storm",
+      hebrew: "הילדים בנו איש שלג אחרי הסופה",
     },
     {
-      english: "He read a story before going to bed.",
-      hebrew: "הוא קרא סיפור לפני השינה.",
+      english: "She writes short stories in her free time",
+      hebrew: "היא כותבת סיפורים קצרים בזמנה הפנוי",
     },
     {
-      english: "The clock on the wall was ticking quietly.",
-      hebrew: "השעון על הקיר תקתק בשקט.",
+      english: "The artist displayed his paintings at the gallery",
+      hebrew: "האמן הציג את ציוריו בגלריה",
     },
     {
-      english: "They planted trees in the school yard.",
-      hebrew: "הם שתלו עצים בחצר בית הספר.",
+      english: "We should recycle paper and plastic bottles",
+      hebrew: "אנחנו צריכים למחזר נייר ובקבוקי פלסטיק",
     },
     {
-      english: "She listened to the sound of the rain.",
-      hebrew: "היא הקשיבה לצליל הגשם.",
+      english: "The mechanic fixed the broken engine",
+      hebrew: "המכונאי תיקן את המנוע המקולקל",
     },
     {
-      english: "He bought a new pair of shoes.",
-      hebrew: "הוא קנה זוג נעליים חדש.",
+      english: "She adopted a cat from the animal shelter",
+      hebrew: "היא אימצה חתול מבית המחסה לחיות",
     },
     {
-      english: "The wind was blowing softly through the trees.",
-      hebrew: "הרוח נשבה בעדינות בין העצים.",
+      english: "The photographer captured beautiful moments at the wedding",
+      hebrew: "הצלם תפס רגעים יפים בחתונה",
     },
     {
-      english: "They built a small house by the lake.",
-      hebrew: "הם בנו בית קטן ליד האגם.",
+      english: "They are learning to dance salsa every Tuesday",
+      hebrew: "הם לומדים לרקוד סלסה כל יום שלישי",
     },
     {
-      english: "She wrote in her diary every night.",
-      hebrew: "היא כתבה ביומנה כל לילה.",
+      english: "The farmer harvested fresh vegetables from his field",
+      hebrew: "החקלאי קטף ירקות טריים מהשדה שלו",
     },
     {
-      english: "He carried the groceries to the car.",
-      hebrew: "הוא נשא את המצרכים לרכב.",
+      english: "She bought new curtains for the living room",
+      hebrew: "היא קנתה וילונות חדשים לסלון",
     },
     {
-      english: "The stars twinkled in the night sky.",
-      hebrew: "הכוכבים נצנצו בשמי הלילה.",
+      english: "The pilot announced that we would land in ten minutes",
+      hebrew: "הטייס הודיע שננחת בעוד עשר דקות",
     },
     {
-      english: "They organized a party for their friend's birthday.",
-      hebrew: "הם ארגנו מסיבה ליום ההולדת של חברם.",
+      english: "The zoo welcomed a new baby elephant last week",
+      hebrew: "גן החיות קיבל פיל תינוק חדש בשבוע שעבר",
     },
     {
-      english: "She watched the birds fly in the sky.",
-      hebrew: "היא צפתה בציפורים עפות בשמיים.",
+      english: "He forgot his keys inside the locked apartment",
+      hebrew: "הוא שכח את המפתחות שלו בתוך הדירה הנעולה",
     },
     {
-      english: "He repaired the broken chair in the kitchen.",
-      hebrew: "הוא תיקן את הכיסא השבור במטבח.",
+      english: "The students prepared a presentation about space",
+      hebrew: "התלמידים הכינו מצגת על החלל",
     },
     {
-      english: "The children were excited to go on a trip.",
-      hebrew: "הילדים התרגשו לצאת לטיול.",
+      english: "She makes delicious chocolate chip cookies",
+      hebrew: "היא מכינה עוגיות שוקולד צ'יפס טעימות",
     },
     {
-      english: "She wore a beautiful dress to the party.",
-      hebrew: "היא לבשה שמלה יפה למסיבה.",
+      english: "The gardener trimmed the bushes in the park",
+      hebrew: "הגנן גזם את השיחים בפארק",
     },
     {
-      english: "He watered the plants every morning.",
-      hebrew: "הוא השקה את הצמחים כל בוקר.",
+      english: "We need to schedule a dentist appointment",
+      hebrew: "אנחנו צריכים לקבוע תור לרופא שיניים",
     },
     {
-      english: "The bird built a nest in the tree.",
-      hebrew: "הציפור בנתה קן בעץ.",
+      english: "The tourist asked for directions to the museum",
+      hebrew: "התייר ביקש הוראות הגעה למוזיאון",
     },
     {
-      english: "They played a game of chess after dinner.",
-      hebrew: "הם שיחקו במשחק שחמט לאחר ארוחת הערב.",
+      english: "She practices yoga every morning before work",
+      hebrew: "היא מתרגלת יוגה כל בוקר לפני העבודה",
     },
     {
-      english: "She painted the walls of her room blue.",
-      hebrew: "היא צבעה את קירות החדר שלה בכחול.",
+      english: "The electrician fixed the broken light switch",
+      hebrew: "החשמלאי תיקן את מתג האור המקולקל",
     },
     {
-      english: "He enjoyed reading books about history.",
-      hebrew: "הוא נהנה לקרוא ספרים על היסטוריה.",
+      english: "They played board games during the power outage",
+      hebrew: "הם שיחקו משחקי קופסה במהלך הפסקת החשמל",
     },
     {
-      english: "The rain stopped and the sun came out.",
-      hebrew: "הגשם הפסיק והשמש יצאה.",
+      english: "The waiter recommended the fish special",
+      hebrew: "המלצר המליץ על מנת הדג המיוחדת",
     },
     {
-      english: "They helped their neighbor move to a new house.",
-      hebrew: "הם עזרו לשכנם לעבור לבית חדש.",
+      english: "She received a promotion at work last month",
+      hebrew: "היא קיבלה קידום בעבודה בחודש שעבר",
     },
     {
-      english: "She made a cake for her friend's birthday.",
-      hebrew: "היא הכינה עוגה ליום ההולדת של חברתה.",
+      english: "The painter used bright colors for the mural",
+      hebrew: "הצייר השתמש בצבעים בהירים לציור הקיר",
     },
     {
-      english: "He found a lost puppy in the park.",
-      hebrew: "הוא מצא גורת כלבים אבודה בפארק.",
+      english: "We should water the plants twice a week",
+      hebrew: "אנחנו צריכים להשקות את הצמחים פעמיים בשבוע",
     },
     {
-      english: "The teacher explained the lesson clearly.",
-      hebrew: "המורה הסביר את השיעור בצורה ברורה.",
+      english: "The orchestra performed classical music at the concert",
+      hebrew: "התזמורת ביצעה מוזיקה קלאסית בקונצרט",
     },
     {
-      english: "They sang songs around the campfire.",
-      hebrew: "הם שרו שירים סביב המדורה.",
+      english: "She organized her closet by color and season",
+      hebrew: "היא סידרה את הארון שלה לפי צבע ועונה",
     },
     {
-      english: "She saved money to buy a new bicycle.",
-      hebrew: "היא חסכה כסף לקניית אופניים חדשים.",
+      english: "The chef prepared a special menu for the event",
+      hebrew: "השף הכין תפריט מיוחד לאירוע",
     },
     {
-      english: "He traveled to a foreign country last year.",
-      hebrew: "הוא נסע למדינה זרה בשנה שעברה.",
+      english: "They installed new security cameras in the building",
+      hebrew: "הם התקינו מצלמות אבטחה חדשות בבניין",
     },
     {
-      english: "The cat slept peacefully on the couch.",
-      hebrew: "החתול ישן בשלווה על הספה.",
+      english: "The tour guide told interesting stories about the city",
+      hebrew: "מדריך הטיולים סיפר סיפורים מעניינים על העיר",
     },
     {
-      english: "They went to the beach to enjoy the sun.",
-      hebrew: "הם הלכו לחוף ליהנות מהשמש.",
+      english: "The garden was filled with colorful flowers",
+      hebrew: "הגן היה מלא בפרחים צבעוניים",
     },
     {
-      english: "She wrote a poem about her feelings.",
-      hebrew: "היא כתבה שיר על תחושותיה.",
+      english: "She usually takes the bus to work every morning",
+      hebrew: "היא בדרך כלל נוסעת באוטובוס לעבודה כל בוקר",
     },
     {
-      english: "He fixed the bicycle tire quickly.",
-      hebrew: "הוא תיקן את הצמיג של האופניים במהירות.",
+      english: "The children were playing in the park yesterday",
+      hebrew: "הילדים שיחקו בפארק אתמול",
     },
     {
-      english: "The family went on a picnic by the river.",
-      hebrew: "המשפחה יצאה לפיקניק ליד הנהר.",
+      english: "I will visit my grandmother next weekend",
+      hebrew: "אני אבקר את סבתא שלי בסוף השבוע הבא",
     },
     {
-      english: "She danced gracefully at the party.",
-      hebrew: "היא רקדה בחן במסיבה.",
+      english: "The movie was interesting but a bit too long",
+      hebrew: "הסרט היה מעניין אבל קצת ארוך מדי",
     },
     {
-      english: "He cooked a special dish for the guests.",
-      hebrew: "הוא בישל מנה מיוחדת לאורחים.",
+      english: "He forgot to bring his umbrella and got wet in the rain",
+      hebrew: "הוא שכח להביא את המטריה שלו ונרטב בגשם",
     },
     {
-      english: "The sun set behind the mountains.",
-      hebrew: "השמש שקעה מאחורי ההרים.",
+      english: "The restaurant serves delicious Italian food",
+      hebrew: "המסעדה מגישה אוכל איטלקי טעים",
     },
     {
-      english: "They played soccer in the school yard.",
-      hebrew: "הם שיחקו כדורגל בחצר בית הספר.",
+      english: "My brother is studying computer science at university",
+      hebrew: "אחי לומד מדעי המחשב באוניברסיטה",
     },
     {
-      english: "She wore a warm coat on a cold day.",
-      hebrew: "היא לבשה מעיל חם ביום קר.",
+      english: "They are planning to move to a new apartment next month",
+      hebrew: "הם מתכננים לעבור לדירה חדשה בחודש הבא",
+    },
+    {
+      english: "The weather forecast predicts rain for tomorrow",
+      hebrew: "תחזית מזג האוויר מנבאת גשם למחר",
+    },
+    {
+      english: "She has been learning to play the piano for two years",
+      hebrew: "היא לומדת לנגן בפסנתר כבר שנתיים",
+    },
+    {
+      english: "The museum will open a new exhibition next week",
+      hebrew: "המוזיאון יפתח תערוכה חדשה בשבוע הבא",
+    },
+    {
+      english: "I need to buy some groceries on my way home",
+      hebrew: "אני צריך לקנות מצרכים בדרך הביתה",
+    },
+    {
+      english: "The teacher explained the lesson very clearly",
+      hebrew: "המורה הסביר את השיעור בצורה מאוד ברורה",
+    },
+    {
+      english: "We should arrive at the airport two hours before the flight",
+      hebrew: "אנחנו צריכים להגיע לשדה התעופה שעתיים לפני הטיסה",
+    },
+    {
+      english: "The cake she baked smells wonderful",
+      hebrew: "העוגה שהיא אפתה מריחה נפלא",
+    },
+    {
+      english: "My sister works as a nurse in the local hospital",
+      hebrew: "אחותי עובדת כאחות בבית החולים המקומי",
+    },
+    {
+      english: "The concert will start at eight o'clock tonight",
+      hebrew: "הקונצרט יתחיל בשעה שמונה הערב",
+    },
+    {
+      english: "He always helps his neighbors when they need assistance",
+      hebrew: "הוא תמיד עוזר לשכנים שלו כשהם צריכים עזרה",
+    },
+    {
+      english: "The library closes at six in the evening",
+      hebrew: "הספרייה נסגרת בשש בערב",
+    },
+    {
+      english: "We watched an interesting documentary about wildlife",
+      hebrew: "צפינו בסרט תיעודי מעניין על חיות בר",
+    },
+    {
+      english: "The office building has twenty floors",
+      hebrew: "בניין המשרדים יש עשרים קומות",
+    },
+    {
+      english: "She ordered a pizza with extra cheese",
+      hebrew: "היא הזמינה פיצה עם תוספת גבינה",
+    },
+    {
+      english: "The train was delayed due to bad weather",
+      hebrew: "הרכבת התעכבה בגלל מזג אוויר גרוע",
+    },
+    {
+      english: "He needs to finish the report by Friday",
+      hebrew: "הוא צריך לסיים את הדוח עד יום שישי",
+    },
+    {
+      english: "The dog barked at the mailman this morning",
+      hebrew: "הכלב נבח על הדוור הבוקר",
+    },
+    {
+      english: "We are going to celebrate his birthday next weekend",
+      hebrew: "אנחנו הולכים לחגוג את יום ההולדת שלו בסוף השבוע הבא",
+    },
+    {
+      english: "The supermarket is open until midnight",
+      hebrew: "הסופרמרקט פתוח עד חצות",
+    },
+    {
+      english: "She likes to read books before going to sleep",
+      hebrew: "היא אוהבת לקרוא ספרים לפני השינה",
+    },
+    {
+      english: "The car needs to be washed this weekend",
+      hebrew: "צריך לשטוף את המכונית בסוף השבוע",
+    },
+    {
+      english: "They went swimming at the beach yesterday",
+      hebrew: "הם הלכו לשחות בחוף אתמול",
+    },
+    {
+      english: "She carried a heavy bag on her shoulder",
+      hebrew: "היא נשאה תיק כבד על כתפה",
+    },
+    {
+      english: "The children were playing with a new toy",
+      hebrew: "הילדים שיחקו בצעצוע חדש",
+    },
+    {
+      english: "He wrote a letter to his grandmother",
+      hebrew: "הוא כתב מכתב לסבתו",
+    },
+    {
+      english: "The sun was shining brightly in the sky",
+      hebrew: "השמש זרחה בחוזקה בשמיים",
+    },
+    {
+      english: "They decided to take a walk in the park",
+      hebrew: "הם החליטו לצאת לטיול בפארק",
+    },
+    {
+      english: "The book was interesting and full of adventure",
+      hebrew: "הספר היה מעניין ומלא בהרפתקאות",
+    },
+    {
+      english: "She cooked a delicious meal for her family",
+      hebrew: "היא בישלה ארוחה טעימה למשפחתה",
+    },
+    {
+      english: "He solved the puzzle after thinking for a while",
+      hebrew: "הוא פתר את הפאזל לאחר מחשבה ממושכת",
+    },
+    {
+      english: "The dog barked loudly at the strangers",
+      hebrew: "הכלב נבח בקול רם על הזרים",
+    },
+    {
+      english: "They watched a movie together in the evening",
+      hebrew: "הם צפו בסרט יחד בערב",
+    },
+    {
+      english: "The river flowed smoothly through the valley",
+      hebrew: "הנהר זרם בצורה חלקה דרך העמק",
+    },
+    {
+      english: "She drew a beautiful picture of the mountains",
+      hebrew: "היא ציירה תמונה יפה של ההרים",
+    },
+    {
+      english: "He read a story before going to bed",
+      hebrew: "הוא קרא סיפור לפני השינה",
+    },
+    {
+      english: "The clock on the wall was ticking quietly",
+      hebrew: "השעון על הקיר תקתק בשקט",
+    },
+    {
+      english: "They planted trees in the school yard",
+      hebrew: "הם שתלו עצים בחצר בית הספר",
+    },
+    {
+      english: "She listened to the sound of the rain",
+      hebrew: "היא הקשיבה לצליל הגשם",
+    },
+    {
+      english: "He bought a new pair of shoes",
+      hebrew: "הוא קנה זוג נעליים חדש",
+    },
+    {
+      english: "The wind was blowing softly through the trees",
+      hebrew: "הרוח נשבה בעדינות בין העצים",
+    },
+    {
+      english: "They built a small house by the lake",
+      hebrew: "הם בנו בית קטן ליד האגם",
+    },
+    {
+      english: "She wrote in her diary every night",
+      hebrew: "היא כתבה ביומנה כל לילה",
+    },
+    {
+      english: "He carried the groceries to the car",
+      hebrew: "הוא נשא את המצרכים לרכב",
+    },
+    {
+      english: "The stars twinkled in the night sky",
+      hebrew: "הכוכבים נצנצו בשמי הלילה",
+    },
+    {
+      english: "They organized a party for their friend's birthday",
+      hebrew: "הם ארגנו מסיבה ליום ההולדת של חברם",
+    },
+    {
+      english: "She watched the birds fly in the sky",
+      hebrew: "היא צפתה בציפורים עפות בשמיים",
+    },
+    {
+      english: "He repaired the broken chair in the kitchen",
+      hebrew: "הוא תיקן את הכיסא השבור במטבח",
+    },
+    {
+      english: "The children were excited to go on a trip",
+      hebrew: "הילדים התרגשו לצאת לטיול",
+    },
+    {
+      english: "She wore a beautiful dress to the party",
+      hebrew: "היא לבשה שמלה יפה למסיבה",
+    },
+    {
+      english: "He watered the plants every morning",
+      hebrew: "הוא השקה את הצמחים כל בוקר",
+    },
+    {
+      english: "The bird built a nest in the tree",
+      hebrew: "הציפור בנתה קן בעץ",
+    },
+    {
+      english: "They played a game of chess after dinner",
+      hebrew: "הם שיחקו במשחק שחמט לאחר ארוחת הערב",
+    },
+    {
+      english: "She painted the walls of her room blue",
+      hebrew: "היא צבעה את קירות החדר שלה בכחול",
+    },
+    {
+      english: "He enjoyed reading books about history",
+      hebrew: "הוא נהנה לקרוא ספרים על היסטוריה",
+    },
+    {
+      english: "The rain stopped and the sun came out",
+      hebrew: "הגשם הפסיק והשמש יצאה",
+    },
+    {
+      english: "They helped their neighbor move to a new house",
+      hebrew: "הם עזרו לשכנם לעבור לבית חדש",
+    },
+    {
+      english: "She made a cake for her friend's birthday",
+      hebrew: "היא הכינה עוגה ליום ההולדת של חברתה",
+    },
+    {
+      english: "He found a lost puppy in the park",
+      hebrew: "הוא מצא גורת כלבים אבודה בפארק",
+    },
+    {
+      english: "The teacher explained the lesson clearly",
+      hebrew: "המורה הסביר את השיעור בצורה ברורה",
+    },
+    {
+      english: "They sang songs around the campfire",
+      hebrew: "הם שרו שירים סביב המדורה",
+    },
+    {
+      english: "She saved money to buy a new bicycle",
+      hebrew: "היא חסכה כסף לקניית אופניים חדשים",
+    },
+    {
+      english: "He traveled to a foreign country last year",
+      hebrew: "הוא נסע למדינה זרה בשנה שעברה",
+    },
+    {
+      english: "The cat slept peacefully on the couch",
+      hebrew: "החתול ישן בשלווה על הספה",
+    },
+    {
+      english: "They went to the beach to enjoy the sun",
+      hebrew: "הם הלכו לחוף ליהנות מהשמש",
+    },
+    {
+      english: "She wrote a poem about her feelings",
+      hebrew: "היא כתבה שיר על תחושותיה",
+    },
+    {
+      english: "He fixed the bicycle tire quickly",
+      hebrew: "הוא תיקן את הצמיג של האופניים במהירות",
+    },
+    {
+      english: "The family went on a picnic by the river",
+      hebrew: "המשפחה יצאה לפיקניק ליד הנהר",
+    },
+    {
+      english: "She danced gracefully at the party",
+      hebrew: "היא רקדה בחן במסיבה",
+    },
+    {
+      english: "He cooked a special dish for the guests",
+      hebrew: "הוא בישל מנה מיוחדת לאורחים",
+    },
+    {
+      english: "The sun set behind the mountains",
+      hebrew: "השמש שקעה מאחורי ההרים",
+    },
+    {
+      english: "They played soccer in the school yard",
+      hebrew: "הם שיחקו כדורגל בחצר בית הספר",
+    },
+    {
+      english: "She wore a warm coat on a cold day",
+      hebrew: "היא לבשה מעיל חם ביום קר",
     },
   ],
 
@@ -1757,7 +3001,301 @@ const sentencesFile = {
       english: "The train arrives at 8 o'clock",
       hebrew: "הרכבת מגיעה בשעה 8",
     },
-    { english: "She is an excellent student", hebrew: "היא תלמידה מצטיינת" },
+    {
+      english:
+        "The research findings suggested a significant correlation between diet and mental health",
+      hebrew: "ממצאי המחקר הצביעו על קשר משמעותי בין תזונה לבריאות הנפש",
+    },
+    {
+      english:
+        "Despite the challenges, she managed to complete the project ahead of schedule",
+      hebrew: "למרות האתגרים, היא הצליחה להשלים את הפרויקט לפני המועד המתוכנן",
+    },
+    {
+      english:
+        "The museum curator carefully arranged the artifacts in chronological order",
+      hebrew: "אוצר המוזיאון סידר בקפידה את הממצאים בסדר כרונולוגי",
+    },
+    {
+      english:
+        "Several participants raised concerns about the proposed methodology",
+      hebrew: "מספר משתתפים העלו חששות לגבי המתודולוגיה המוצעת",
+    },
+    {
+      english:
+        "The renewable energy sector has shown remarkable growth in recent years",
+      hebrew: "תחום האנרגיה המתחדשת הראה צמיחה מרשימה בשנים האחרונות",
+    },
+    {
+      english:
+        "Her innovative approach to problem-solving earned her widespread recognition",
+      hebrew: "הגישה החדשנית שלה לפתרון בעיות זיכתה אותה בהכרה נרחבת",
+    },
+    {
+      english:
+        "The committee will review the proposal during next month's meeting",
+      hebrew: "הוועדה תבחן את ההצעה במהלך הפגישה של החודש הבא",
+    },
+    {
+      english:
+        "Environmental considerations played a crucial role in the design process",
+      hebrew: "שיקולים סביבתיים מילאו תפקיד מכריע בתהליך התכנון",
+    },
+    {
+      english:
+        "The documentary highlighted the importance of ocean conservation",
+      hebrew: "הסרט התיעודי הדגיש את חשיבות שימור האוקיינוסים",
+    },
+    {
+      english: "Regular exercise can significantly improve cognitive function",
+      hebrew: "פעילות גופנית סדירה יכולה לשפר משמעותית את התפקוד הקוגניטיבי",
+    },
+    {
+      english:
+        "The architectural design incorporates sustainable materials and energy-efficient systems",
+      hebrew: "התכנון האדריכלי משלב חומרים ברי-קיימא ומערכות חסכוניות באנרגיה",
+    },
+    {
+      english:
+        "The psychological study revealed interesting patterns in human behavior",
+      hebrew: "המחקר הפסיכולוגי חשף דפוסים מעניינים בהתנהגות האנושית",
+    },
+    {
+      english:
+        "Advanced technology has revolutionized modern manufacturing processes",
+      hebrew: "טכנולוגיה מתקדמת חוללה מהפכה בתהליכי הייצור המודרניים",
+    },
+    {
+      english:
+        "The international conference brought together experts from various fields",
+      hebrew: "הכנס הבינלאומי איחד מומחים מתחומים שונים",
+    },
+    {
+      english:
+        "Sustainable agriculture practices help preserve natural resources",
+      hebrew: "שיטות חקלאות בת-קיימא עוזרות לשמר משאבים טבעיים",
+    },
+    {
+      english:
+        "The company implemented comprehensive employee wellness programs",
+      hebrew: "החברה יישמה תוכניות מקיפות לרווחת העובדים",
+    },
+    {
+      english:
+        "Recent medical breakthroughs offer hope for treating chronic diseases",
+      hebrew: "פריצות דרך רפואיות אחרונות מציעות תקווה לטיפול במחלות כרוניות",
+    },
+    {
+      english:
+        "The urban development project aims to revitalize the downtown area",
+      hebrew: "פרויקט הפיתוח העירוני מכוון להחיות את אזור מרכז העיר",
+    },
+    {
+      english:
+        "Digital transformation has become essential for business survival",
+      hebrew: "טרנספורמציה דיגיטלית הפכה חיונית להישרדות עסקית",
+    },
+    {
+      english: "The educational reform emphasizes critical thinking skills",
+      hebrew: "הרפורמה החינוכית מדגישה מיומנויות חשיבה ביקורתית",
+    },
+    {
+      english:
+        "Collaborative research projects foster innovation and creativity",
+      hebrew: "פרויקטי מחקר שיתופיים מטפחים חדשנות ויצירתיות",
+    },
+    {
+      english: "The cultural exhibition celebrates diversity and inclusion",
+      hebrew: "התערוכה התרבותית חוגגת גיוון והכללה",
+    },
+    {
+      english: "Professional development opportunities enhance career growth",
+      hebrew: "הזדמנויות לפיתוח מקצועי מעצימות צמיחה בקריירה",
+    },
+    {
+      english: "The economic analysis indicates positive market trends",
+      hebrew: "הניתוח הכלכלי מצביע על מגמות חיוביות בשוק",
+    },
+    {
+      english: "Effective communication skills are crucial in leadership roles",
+      hebrew: "כישורי תקשורת יעילים הם קריטיים בתפקידי מנהיגות",
+    },
+    {
+      english:
+        "The environmental impact assessment revealed significant concerns",
+      hebrew: "הערכת ההשפעה הסביבתית חשפה חששות משמעותיים",
+    },
+    {
+      english: "Strategic planning ensures long-term organizational success",
+      hebrew: "תכנון אסטרטגי מבטיח הצלחה ארגונית לטווח ארוך",
+    },
+    {
+      english: "The social media campaign generated substantial engagement",
+      hebrew: "קמפיין המדיה החברתית יצר מעורבות משמעותית",
+    },
+    {
+      english: "Innovative solutions address complex technological challenges",
+      hebrew: "פתרונות חדשניים מתמודדים עם אתגרים טכנולוגיים מורכבים",
+    },
+    {
+      english:
+        "The research methodology incorporates qualitative and quantitative approaches",
+      hebrew: "המתודולוגיה המחקרית משלבת גישות איכותניות וכמותיות",
+    },
+    {
+      english:
+        "Corporate social responsibility initiatives benefit local communities",
+      hebrew: "יוזמות אחריות חברתית תאגידית מועילות לקהילות מקומיות",
+    },
+    {
+      english:
+        "The investment strategy focuses on sustainable growth opportunities",
+      hebrew: "אסטרטגיית ההשקעה מתמקדת בהזדמנויות צמיחה בנות-קיימא",
+    },
+    {
+      english: "Advanced analytics provide valuable business insights",
+      hebrew: "אנליטיקה מתקדמת מספקת תובנות עסקיות בעלות ערך",
+    },
+    {
+      english:
+        "The healthcare initiative promotes preventive medicine practices",
+      hebrew: "היוזמה הבריאותית מקדמת שיטות רפואה מונעת",
+    },
+    {
+      english:
+        "Artificial intelligence applications transform various industries",
+      hebrew: "יישומי בינה מלאכותית משנים תעשיות שונות",
+    },
+    {
+      english: "The diplomatic negotiations resulted in significant agreements",
+      hebrew: "המשא ומתן הדיפלומטי הוביל להסכמים משמעותיים",
+    },
+    {
+      english: "Organizational change requires effective leadership strategies",
+      hebrew: "שינוי ארגוני דורש אסטרטגיות מנהיגות יעילות",
+    },
+    {
+      english: "The scientific research explores innovative treatment methods",
+      hebrew: "המחקר המדעי חוקר שיטות טיפול חדשניות",
+    },
+    {
+      english: "Digital literacy programs enhance workforce capabilities",
+      hebrew: "תוכניות אוריינות דיגיטלית מעצימות יכולות כוח העבודה",
+    },
+    {
+      english: "The marketing strategy targets diverse demographic groups",
+      hebrew: "אסטרטגיית השיווק מכוונת לקבוצות דמוגרפיות מגוונות",
+    },
+    {
+      english: "Renewable energy solutions reduce environmental impact",
+      hebrew: "פתרונות אנרגיה מתחדשת מפחיתים השפעה סביבתית",
+    },
+    {
+      english:
+        "The financial analysis reveals promising investment opportunities",
+      hebrew: "הניתוח הפיננסי חושף הזדמנויות השקעה מבטיחות",
+    },
+    {
+      english:
+        "Professional networking facilitates career advancement opportunities",
+      hebrew: "נטוורקינג מקצועי מקל על הזדמנויות קידום בקריירה",
+    },
+    {
+      english: "The conservation project protects endangered species",
+      hebrew: "פרויקט השימור מגן על מינים בסכנת הכחדה",
+    },
+    {
+      english: "Technological innovation drives competitive advantage",
+      hebrew: "חדשנות טכנולוגית מניעה יתרון תחרותי",
+    },
+    {
+      english: "The rehabilitation program shows promising results",
+      hebrew: "תוכנית השיקום מראה תוצאות מבטיחות",
+    },
+    {
+      english: "Cultural diversity enriches workplace environments",
+      hebrew: "גיוון תרבותי מעשיר סביבות עבודה",
+    },
+    {
+      english: "The policy implementation requires stakeholder engagement",
+      hebrew: "יישום המדיניות דורש מעורבות בעלי עניין",
+    },
+    {
+      english: "Sustainable practices promote environmental conservation",
+      hebrew: "שיטות בנות-קיימא מקדמות שימור סביבתי",
+    },
+    {
+      english: "The research findings contribute to scientific knowledge",
+      hebrew: "ממצאי המחקר תורמים לידע המדעי",
+    },
+    {
+      english: "Digital platforms facilitate global communication",
+      hebrew: "פלטפורמות דיגיטליות מאפשרות תקשורת גלובלית",
+    },
+    {
+      english: "The artistic exhibition showcases contemporary creativity",
+      hebrew: "התערוכה האמנותית מציגה יצירתיות עכשווית",
+    },
+    {
+      english: "Professional development enhances organizational effectiveness",
+      hebrew: "פיתוח מקצועי מעצים אפקטיביות ארגונית",
+    },
+    {
+      english: "The humanitarian mission provides essential aid",
+      hebrew: "המשימה ההומניטרית מספקת סיוע חיוני",
+    },
+    {
+      english: "Technological advancements improve operational efficiency",
+      hebrew: "התקדמויות טכנולוגיות משפרות יעילות תפעולית",
+    },
+    {
+      english: "The educational program promotes lifelong learning",
+      hebrew: "התוכנית החינוכית מקדמת למידה לאורך החיים",
+    },
+    {
+      english: "Social media analytics reveal consumer preferences",
+      hebrew: "אנליטיקת מדיה חברתית חושפת העדפות צרכנים",
+    },
+    {
+      english: "The archaeological discovery provides historical insights",
+      hebrew: "התגלית הארכיאולוגית מספקת תובנות היסטוריות",
+    },
+    {
+      english: "Environmental regulations protect natural resources",
+      hebrew: "תקנות סביבתיות מגנות על משאבים טבעיים",
+    },
+    {
+      english: "The clinical trials demonstrate treatment effectiveness",
+      hebrew: "הניסויים הקליניים מדגימים יעילות טיפולית",
+    },
+    {
+      english: "Strategic partnerships enhance market position",
+      hebrew: "שותפויות אסטרטגיות מחזקות מעמד בשוק",
+    },
+    {
+      english: "The cultural exchange promotes international understanding",
+      hebrew: "חילופי התרבות מקדמים הבנה בינלאומית",
+    },
+    {
+      english: "Professional certifications validate expertise",
+      hebrew: "הסמכות מקצועיות מאמתות מומחיות",
+    },
+    {
+      english: "The architectural design combines functionality and aesthetics",
+      hebrew: "התכנון האדריכלי משלב פונקציונליות ואסתטיקה",
+    },
+    {
+      english: "Digital security measures protect sensitive information",
+      hebrew: "אמצעי אבטחה דיגיטליים מגנים על מידע רגיש",
+    },
+    {
+      english: "The research methodology ensures data accuracy",
+      hebrew: "המתודולוגיה המחקרית מבטיחה דיוק בנתונים",
+    },
+    {
+      english: "Corporate initiatives promote workplace wellness",
+      hebrew: "יוזמות תאגידיות מקדמות רווחה במקום העבודה",
+    },
     {
       english: "We need to finish this project by Friday",
       hebrew: "אנחנו צריכים לסיים את הפרויקט הזה עד יום שישי",
