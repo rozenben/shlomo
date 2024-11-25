@@ -10,6 +10,7 @@ let currentSentence;
 let currentScore = 0;
 let highScore = 0;
 let timerInterval;
+let isSoundEnabled = localStorage.getItem("isSoundEnabled") !== "false"; // Default to true
 
 const startGameButton = document.getElementById("start-game");
 const gameArea = document.getElementById("game-area");
@@ -68,7 +69,7 @@ function startGame() {
   userInput.value = "";
   userInput.focus();
   updateScore();
-
+  createSoundToggleButton();
   // ערבוב המערך
   sentencesFile["level" + selectedLevel].sort(() => Math.random() - 0.5);
 
@@ -149,7 +150,33 @@ function endGame() {
   alert(`המשחק נגמר! הניקוד שלך: ${currentScore}`);
 }
 
+function createSoundToggleButton() {
+  const soundToggleButton = document.createElement("button");
+  soundToggleButton.id = "sound-toggle";
+  soundToggleButton.className = "btn sound-btn";
+  updateSoundButtonState(soundToggleButton);
+
+  soundToggleButton.addEventListener("click", () => {
+    isSoundEnabled = !isSoundEnabled;
+    localStorage.setItem("isSoundEnabled", isSoundEnabled);
+    updateSoundButtonState(soundToggleButton);
+  });
+
+  // Add the button to the game-info div
+  document.querySelector(".game-info").appendChild(soundToggleButton);
+}
+
+function updateSoundButtonState(button) {
+  button.innerHTML = `
+    <i class="fas ${isSoundEnabled ? "fa-volume-up" : "fa-volume-mute"}"></i>
+    ${isSoundEnabled ? "כבה צליל" : "הפעל צליל"}
+  `;
+  button.title = isSoundEnabled ? "כבה צליל" : "הפעל צליל";
+}
+
 function speakText(text) {
+  if (!isSoundEnabled) return; // Add this line to prevent speech if sound is disabled
+
   if ("speechSynthesis" in window) {
     const utterance = new SpeechSynthesisUtterance(text);
     utterance.lang = "en-US";

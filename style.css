@@ -164,7 +164,32 @@ h1 {
     color: #e74c3c;
     animation: pulse 1s infinite;
 }
-
+/* Add these styles to your style.css file */
+.sound-btn {
+    padding: 8px 16px;
+    font-size: 1em;
+    margin-top: 0;
+    background-color: #4CAF50;
+    transition: all 0.3s ease;
+  }
+  
+  .sound-btn:hover {
+    background-color: #45a049;
+  }
+  
+  .sound-btn i {
+    margin-left: 8px;
+    font-size: 1.1em;
+  }
+  
+  /* When sound is disabled */
+  .sound-btn.disabled {
+    background-color: #e74c3c;
+  }
+  
+  .sound-btn.disabled:hover {
+    background-color: #c0392b;
+  }
 /* תמיכה במסכים קטנים */
 @media (max-width: 480px) {
     .container {
